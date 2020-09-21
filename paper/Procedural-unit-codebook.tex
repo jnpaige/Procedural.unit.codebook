@@ -22,6 +22,16 @@
   \usepackage[]{microtype}
   \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
 \usepackage{xcolor}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
@@ -61,7 +71,7 @@ techniques reported in the literature}
 \author{-Jonathan Paige\footnote{Institute of Human Origins, School of Human
   Evolution and Social Change, Arizona State University,
   \href{mailto:jnpaige@asu.edu}{\nolinkurl{jnpaige@asu.edu}}}}
-\date{26 August, 2020}
+\date{21 September, 2020}
 
 \begin{document}
 \maketitle
@@ -70,7 +80,17 @@ techniques reported in the literature}
 \setcounter{tocdepth}{3}
 \tableofcontents
 }
-\setlength{\parskip}{15pt}
+\hypertarget{version-details}{%
+\section{Version details:}\label{version-details}}
+
+This report was generated on 2020-09-21 15:37:05 The current Git commit
+details are:
+
+\begin{verbatim}
+## Local:    master C:/Users/Jon Paige/Google Drive/Dissertation/Chapters/Procedural.unit.codebook
+## Remote:   master @ origin (https://github.com/jnpaige/Procedural.unit.codebook.git)
+## Head:     [638ac05] 2020-08-26: Refining the formatting
+\end{verbatim}
 
 \hypertarget{introduction}{%
 \section{Introduction}\label{introduction}}
@@ -120,8 +140,8 @@ does not give enough guidance on what forms do not meet that definition,
 and when we should code ``core tablet`` as present. Social scientists at
 the Center for Disease Control encountered similar problems while coding
 interview transcripts and other texts for qualitative analysis. Their
-solution was to develop codebooks with excplicit inclusion, and
-**Exclusion criteria.
+solution was to develop codebooks with explicit inclusion, and exclusion
+criteria.
 
 This codebook follows a format developed at the CDC to ensure
 reliability in coding texts (MacQueen et al., 1998). Each procedural
@@ -138,7 +158,7 @@ and atypical examples of the procedural unit. These may be
 illustrations, or text examples. These two help to further outline when
 it is appropriate to code a procedural unit as present. Finally, there
 is a ``close, but no`` entry, which outlines what kinds of cases might
-be confused with the procedural unit. Some of these **Inclusion criteria
+be confused with the procedural unit. Some of these inclusion criteria
 are more exhaustive than others, especially in cases where I noticed
 that I came to different conclusions about how a procedural unit should
 be coded multiple times while double checking data.
@@ -196,10 +216,12 @@ platform.
 
 \textbf{Definition} Heating of raw material in order to improve
 workability. This process alters the fracture mechanics of raw material,
-and often causes changes in texture, and color. \textbf{Inclusion
-criteria} If heat treatment is described as present, code as yes. If
-heating is described, and reference made to glassy/glossy texture of raw
-material as a result of heating, code as present.
+and often causes changes in texture, and color.
+
+\textbf{Inclusion criteria} If heat treatment is described as present,
+code as yes. If heating is described, and reference made to
+glassy/glossy texture of raw material as a result of heating, code as
+present.
 
 \textbf{Exclusion criteria} Heat treatment not mentioned in text.
 
@@ -255,35 +277,6 @@ to code as present.
 \hypertarget{face-shaping-through-radial-removals}{%
 \subsection{Face shaping through radial
 removals}\label{face-shaping-through-radial-removals}}
-
-\textbf{Short Description} Shaping of the face of a core through
-centripetal removals along the perimeter of a core face.
-
-\textbf{Definition} Flakes taken to modify the distal, lateral, medial
-convexities of a round core face, to prepare it for preferential
-removals. The preferential removals could be unidirectional or
-bidirectional blades, or preferential flakes.
-
-\textbf{Inclusion criteria} Consistent evidence for radial scars on
-blanks. Cores with evidence of centripetal preparation and hierarchical
-setup. Core faces should be rounded/oval, not rectilinear. Description
-of centripetal preparation of cores.
-
-\textbf{Exclusion criteria} radial cores without evidence for
-preferential removals, presence of only lateral trimming, or distal
-trimming flakes on a prepared core.
-
-\textbf{Typical exemplars} Figure 5. Pieces 1, 2, 4, 7.
-
-\textbf{Atypical exemplars}
-
-\textbf{Close but no} Figure 5. Pieces 3, 5, 6. Discoid cores,
-non-hierarchical core faces, biface thinning, cores of a rectilinear
-shape with both lateral trimming and distal trimming.
-
-\hypertarget{face-shaping-through-radial-removals-1}{%
-\subsection{Face shaping through radial
-removals}\label{face-shaping-through-radial-removals-1}}
 
 \textbf{Short Description} Shaping of the face of a core through
 centripetal removals along the perimeter of a core face.
@@ -1174,8 +1167,7 @@ Figure 17. Figure 14 illustrating tranchet axe variability at Motza
 \hypertarget{bibliography}{%
 \section{Bibliography}\label{bibliography}}
 
-\noindent \vspace{-2em} \setlength{\parindent}{-0.5in}
-\setlength{\leftskip}{0.5in} \setlength{\parskip}{15pt}
+x
 
 Barzilai, O., \& Goring-Morris, A. N. (2010). Bidirectional Blade
 Production at the PPNB Site of Kfar HaHoresh: The Techno-Typological
@@ -1285,17 +1277,5 @@ Heuristics and Biases. Science, 185(4157), 1124--1131.
 Wilkins, J., \& Chazan, M. (2012). Blade production \textasciitilde500
 thousand years ago at Kathu Pan 1, South Africa support for a multiple
 origins hypothesis. Journal of Archaeological Science, 1--18.
-
-\hypertarget{version-details}{%
-\section{Version details:}\label{version-details}}
-
-This report was generated on 2020-08-26 14:57:10 The current Git commit
-details are:
-
-\begin{verbatim}
-## Local:    master C:/Users/Jon Paige/Google Drive/Dissertation/Chapters/Procedural.unit.codebook
-## Remote:   master @ origin (https://github.com/jnpaige/Procedural.unit.codebook.git)
-## Head:     [4cca289] 2020-08-26: Initial commit
-\end{verbatim}
 
 \end{document}
