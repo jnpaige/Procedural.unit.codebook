@@ -53,6 +53,8 @@ if ("git2r" %in% installed.packages() & git2r::in_repository(path = ".")) git2r:
 # Introduction
 
 
+  If an archaeologist wants to study more than a handfull of archaeological assemblages, or compare the material culture of several different cultures, they have two choices. Study all the relevant material themselves, or rely on published descriptions and data. Below I argue that we should be doing more of the latter, and that collecting data from existing studies helps us better realize the many benefits of the comparative method. However, some very real problems have stood in the way. Existing descriptions and data describing material culture are as much themselves texts as the original materials themselves (Go fucking post-processualist hogwild here). Any data table, prose summary, or set of illustrations describing material culture condenses those products into a kind of texts that themselves must be interpreted [@hodderInterpretationDocumentsMaterial1994].
+  
 Outline
   -
   
@@ -65,16 +67,14 @@ Comparative research.
   
   
   But, to do sciennce, we need the desciption of the methods to convey in high enough detail for people to know specifically 
+  
 # Problems. Standardization in ontologies often is region, and time specific. 
 
- 1. lack of standardization in how stone tool assemblages are studied.There are diverse approaches to stone tool research, driven by different kinds of questions, and with different theoretical perspectives, all of which have evolved over time. This means that it is difficult to compare many assemblages, especially between the products of distinct research traditions.   
+In order to make conclusions about prehistory that we can be confident in, artifact classifications, and measurements must be reliable, and replicable. Any archaeological assemblage has a great deal of complex information that an archaeologist could attend to. Researchers might vary in their personal recording tendencies, and they might differ from one another as a result of belonging to different research traditions. As a consequence, inter-analyst variation, and error all hinder systematic studies of lithic technology (Gnaden and Holdoway, Fish 1978, Prentiss 1998, Whittaker et al. 1998, Beck and Jones 1989, Hodson 1966). For our research to be replicable, future researchers should be able to know what we measured, or how we classified material, or what standards we used for inferring certain kinds of behaviors, and why, without having to ask.
 
-# Ontologies are often implicit. 
+All sets of debitage and tools represent accumulations of many behaviors that likely occurred across generations. So, the number of procedural units and modes we identify could be driven in part by the recycle, re-use, and transportation of artifacts in prehistory, rather than reflecting a single coherent technological strategy (Coco et al., 2020; Rezek et al., 2020). When sites are discovered and excavated, there is further loss in artifacts whose size does not meet the collection threshold (screen size), which can obscure the presence of some kinds of core management techniques, and methods of producing tools (Towner & Warburton, 1990). During excavation and analysis, the chaotic accumulations of many behaviors are grouped into discrete assemblages, typically by major stratigraphic unit. These assemblages are then studied, and characterized (Rezek et al., 2020). During analysis, a researcher could misreport the presence or the absence of a manufacturing step, or inadvertently lump different manufacturing steps that belong to two or more independent reduction sequences because of site disturbance and time-averaging (Perreault, 2018). Such inter-observer variation and errors in reconstructing reduction sequences are to be expected (Beck & Jones, 1989; Fish, 1978; Gnaden & Holdaway, 2000; Hodson et al., 1966; Prentiss, 1998; Whittaker et al., 1998). Mechanical and chemical processes can further complicate these reconstructions. Overly patinated, rolled and worn pieces may have evidence of some behaviors erased, such as abrasion of platforms. These processes may also complicate attempts to identify how tools were retouched (Adler et al., 2014).
+ 	A lack of standardization, and common practice is especially an obstacle to analyses of lithic variation across sites, regions, and continents, where researchers who studied the assemblages to be included came from different research traditions. Benefits of comparative studies in lithic technology, and shared units of analysis. '
 
-Ontologies are implicit. 
-  -There is no explicit descir
-
-# Categories drift.
 
 Another problem is that even in categories with explicit descriptions, and good reference illustrations, 
   -New forms accomodated under Yuma type. Catchall for non-clovis lanceolate points in early days of Paleoindian archaeology [@bousmanPaleoindianArcheologyTexas2004]
@@ -82,8 +82,10 @@ Another problem is that even in categories with explicit descriptions, and good 
   -Decades untill this was walked back [@bousmanPaleoindianArcheologyTexas2004]
 
 
+	
 
-# Problems. Inter-observer error within a given ontology.
+ 1. lack of standardization in how stone tool assemblages are studied.There are diverse approaches to stone tool research, driven by different kinds of questions, and with different theoretical perspectives, all of which have evolved over time. This means that it is difficult to compare many assemblages, especially between the products of distinct research traditions.   
+
 
 2. lack of standardization in how the same kind of trait is measured and varying understanding of the definition of that trait, and
 
@@ -116,6 +118,18 @@ Carbon emissions
 Feasibility of travel in post-covid world
 
 
+# Summary
+
+
+
+ 	A lack of standardization, and common practice is especially an obstacle to analyses of lithic variation across sites, regions, and continents, where researchers who studied the assemblages to be included came from different research traditions. Benefits of comparative studies in lithic technology, and shared units of analysis. 
+	
+	Rezek et al. 
+Will et al. 
+	Riede, Hoggard, Shennan.
+	
+Overall, it is likely that some kinds of measurements and ways of making sense of the complex information that can be gleaned from stone tool assemblages are far more reliable than others (e.g. measurements of the maximum length of a flake). Even simple, reliable measurements serve as the basis for very important broad comparative studies (Rezek et al. 2018). However, much of the information we are interested in relates to more complex information about how cores are managed, changes in technologies over time beyond a narrow set of artifact measurements, or across sets of artifact classes as opposed to within a single artifact class. When we begin to try to operationalize change in this more complex domain of technological variation, we have run into issues. 
+
 
 # Solutions
 
@@ -123,6 +137,16 @@ Feasibility of travel in post-covid world
   Below I discuss these problems a bit more in depth, 
   
   
+  Solutions proposed by archaeologists. 
+	Record the learning pedigrees of lithicists in order to better understand biases (). 
+	Explicit definitions of types, attributes, etc. 
+		Whittaker et al. 1998. 
+Calibration of workers to a more experienced analyst. Double checking of data by experienced analyst (Gnadena and Holdaway 2000). 
+Working in large teams of well-trained researchers so that things can be double checked to improve reliability (Wilkins et al. 2017)
+	Computational methods of comparison (Grosman et al. 2008). 
+
+	Reliance on type collections. 	
+
   
   
   However, comparative studies of technological change face several challenges. 
@@ -170,6 +194,7 @@ Calibration of workers to a more experienced analyst. Double checking of data by
 Working in large teams of well-trained researchers so that things can be double checked to improve reliability (Wilkins et al. 2017)
 	Computational methods of comparison (Grosman et al. 2008). 
 	Reliance on type collections. 	
+
 
 ## Solutions outside archaeology
 
