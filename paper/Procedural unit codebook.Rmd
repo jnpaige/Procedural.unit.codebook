@@ -1,10 +1,9 @@
 ---
-title: "A codebook for summarizing presence or absence of stone tool-making techniques reported in the literature"
+title: "A codebook for summarizing presence or absence of stone tool-making techniques reported in the literature v.1.0"
 author: -Jonathan Paige^[Institute of Human Origins, School of Human Evolution and
   Social Change, Arizona State University, jnpaige@asu.edu]
 bibliography: ["references.bib"] #This is the reference file in the rmarkdown directory. 
 #https://github.com/crsh/citr more info on bib connection ot zotero here. 
-date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   pdf_document:
     keep_tex: yes  #helps with linkage between latex and rmarkdown
@@ -50,166 +49,56 @@ The current Git commit details are:
 if ("git2r" %in% installed.packages() & git2r::in_repository(path = ".")) git2r::repository(here::here())  
 ```
 
-# Introduction
+I made this codebook while working on ways of quantifying variation in tool-making sequences across the
+archaeological record. In this case the unit of analysis is the technique, or procedural unit (Perreault et al.,
+2013). I coded procedural units as present or absent across archaeological assemblages, based on published
+reports describing those assemblages. Most systematic, comparative work on lithic technology has focused
+on units of analysis that are more consistent, and replicable across assemblages. For example flake and
+biface measurements, and shape variation can be very consistent between studies. Other aspects of lithic
+technology, like chaînes opératoire or reduction sequences that we are interested in, are not as easy to analyze
+statistically. Similarity and dissimilarity in them is difficult to quantify systematically because they represent
+qualitative data conveyed through prose descriptions, tables of artifact counts, and illustrations of individual
+artifacts and schematics of those sequences. How sequences are reported might vary by the research tradition
+of the analyst, and how I interpret those reports is also shaped by the tradition I am a part of. This is a big
+hurdle to making systematic comparisons of technology across many assemblages (Reynolds, 2018).
+Reliably extracting the presence or absence of procedural units from the complex descriptions of stone tool
+technologies is a similar problem to that faced by scientists who code interview transcripts, and other texts.
+There are limits to human abilities to make sense of complex information, and individual scientists may use
+their own heuristics, and prior experience to collapse and make sense of that information. Those heuristics,
+and mental shortcuts introduce bias and error into the analysis (Hruschka et al., 2004; MacQueen et al., 1998;
+Tversky & Kahneman, 1974). One way to reduce this error is to give clear definitions of each procedural unit.
+Clear definitions, however, are not enough. If I gave a careful definition of the procedural unit “core tablet“,
+there may be many forms that could be accomodated into that definition that I had not taken into account.
 
-
-  If an archaeologist wants to study more than a handfull of archaeological assemblages, or compare the material culture of several different cultures, they have two choices. Study all the relevant material themselves, or rely on published descriptions and data. Below I argue that we should be doing more of the latter, and that collecting data from existing studies helps us better realize the many benefits of the comparative method. However, some very real problems have stood in the way. Existing descriptions and data describing material culture are as much themselves texts as the original materials themselves (Go fucking post-processualist hogwild here). Any data table, prose summary, or set of illustrations describing material culture condenses those products into a kind of texts that themselves must be interpreted [@hodderInterpretationDocumentsMaterial1994].
-  
-Outline
-  -
-  
-Comparative research. 
-
-
-  Stone tool technologies are some of our only evidence for behavioral change across hominin evolution, and they hold great promise in improving our understanding of how humans evolved. This paper focuses on helping researchers to perform reproducible research in comparative stone tool analysis, which necessarily involves analyisis of data collected from many individuals. As others have written about at length, this is difficult to accomplish (Will et al. 2019, Riede et al. 2020). Below, I describe some of the problems facing comparative stone tool analysis, and some proposed solutions to give a broader understanding of these issues. However, the bulk of this paper focuses on outlining how the use of codebooks can help to ensure that comparative studies are reproducable.
-  
-  through use of carefully designed code-books. Code-books address one problem, namely, ensuring that any two researchers come to the same conclusions about how to measure something, or when to interpret some feature as present or absent. 
-  
-  
-  But, to do sciennce, we need the desciption of the methods to convey in high enough detail for people to know specifically 
-  
-# Problems. Standardization in ontologies often is region, and time specific. 
-
-In order to make conclusions about prehistory that we can be confident in, artifact classifications, and measurements must be reliable, and replicable. Any archaeological assemblage has a great deal of complex information that an archaeologist could attend to. Researchers might vary in their personal recording tendencies, and they might differ from one another as a result of belonging to different research traditions. As a consequence, inter-analyst variation, and error all hinder systematic studies of lithic technology (Gnaden and Holdoway, Fish 1978, Prentiss 1998, Whittaker et al. 1998, Beck and Jones 1989, Hodson 1966). For our research to be replicable, future researchers should be able to know what we measured, or how we classified material, or what standards we used for inferring certain kinds of behaviors, and why, without having to ask.
-
-All sets of debitage and tools represent accumulations of many behaviors that likely occurred across generations. So, the number of procedural units and modes we identify could be driven in part by the recycle, re-use, and transportation of artifacts in prehistory, rather than reflecting a single coherent technological strategy (Coco et al., 2020; Rezek et al., 2020). When sites are discovered and excavated, there is further loss in artifacts whose size does not meet the collection threshold (screen size), which can obscure the presence of some kinds of core management techniques, and methods of producing tools (Towner & Warburton, 1990). During excavation and analysis, the chaotic accumulations of many behaviors are grouped into discrete assemblages, typically by major stratigraphic unit. These assemblages are then studied, and characterized (Rezek et al., 2020). During analysis, a researcher could misreport the presence or the absence of a manufacturing step, or inadvertently lump different manufacturing steps that belong to two or more independent reduction sequences because of site disturbance and time-averaging (Perreault, 2018). Such inter-observer variation and errors in reconstructing reduction sequences are to be expected (Beck & Jones, 1989; Fish, 1978; Gnaden & Holdaway, 2000; Hodson et al., 1966; Prentiss, 1998; Whittaker et al., 1998). Mechanical and chemical processes can further complicate these reconstructions. Overly patinated, rolled and worn pieces may have evidence of some behaviors erased, such as abrasion of platforms. These processes may also complicate attempts to identify how tools were retouched (Adler et al., 2014).
- 	A lack of standardization, and common practice is especially an obstacle to analyses of lithic variation across sites, regions, and continents, where researchers who studied the assemblages to be included came from different research traditions. Benefits of comparative studies in lithic technology, and shared units of analysis. '
-
-
-Another problem is that even in categories with explicit descriptions, and good reference illustrations, 
-  -New forms accomodated under Yuma type. Catchall for non-clovis lanceolate points in early days of Paleoindian archaeology [@bousmanPaleoindianArcheologyTexas2004]
-  -Case of new forms accomodated in Plainview type in 1954. 
-  -Decades untill this was walked back [@bousmanPaleoindianArcheologyTexas2004]
-
-
-	
-
- 1. lack of standardization in how stone tool assemblages are studied.There are diverse approaches to stone tool research, driven by different kinds of questions, and with different theoretical perspectives, all of which have evolved over time. This means that it is difficult to compare many assemblages, especially between the products of distinct research traditions.   
-
-
-2. lack of standardization in how the same kind of trait is measured and varying understanding of the definition of that trait, and
-
- The second problem is that individuals often assume that there is standardization in some measurement (like platform angle), or trait (what constitutes a prepared core), when there is actually between-analyst error in measuring, and variation in researchers understanding of the definition of those traits. This is probably less of a problem within research teams, or within research traditions. 
-  
-
-This is where there has been the most work in exploring inter-observer error. 
-
-Coding errors solved by *enterer trois* E4, E5 data entry programs.
-
-
-
-
-Any archaeological assemblage has a great deal of complex information that an archaeologist could attend to. Researchers might vary in their personal recording tendencies, and they might differ from one another as a result of belonging to different research traditions. As a consequence, inter-analyst variation, and error all hinder systematic studies of lithic technology (Gnaden and Holdoway, Fish 1978, Prentiss 1998, Whittaker et al. 1998, Beck and Jones 1989, Hodson 1966).  Research teams A and B might Some researchers might have a slightly different understanding of how to measure platform angle, and do not explicitly describe that understanding in papers. We know that stone tool researchers face problems in consistently performing those measurements.     
-
-
-# Problems. High cost of re-analyzing assemblages. 
-
-3, the huge cost of re-analyzing assemblages once a standardized method of analysis is developed. 
-
-  Thirdly, systematically analyzing each artifact in even one assemblage of moderate size is a long, time-consuming task. For example, the analysis of 15,000 stone tools at the Pinnacle Point 5-6 site involved the efforts of 5 expert lithic analysts working every day together for weeks. For my own dissertation research, I budgeted ~14 10 hour work days for each of the assemblages I sampled and analyzed. A fuller analysis of each site's assemblage in some cases would take months. The cost of analyzing an assemblage, means that for research questions about broad changes in technology at the continental, and hundred-thousand year to million year scale, cannot be achieved by re-analyzing collections previously reported. Furthermore, travelling overseas to analyze multiple assemblages has a huge carbon footprint. Requires large budgets to perform research, which may not be available to many early career researchers and students. Also, its not covid friendly. 
-  
-
-Financial cost
-
-Time Cost
-
-Carbon emissions
-
-Feasibility of travel in post-covid world
-
-
-# Summary
-
-
-
- 	A lack of standardization, and common practice is especially an obstacle to analyses of lithic variation across sites, regions, and continents, where researchers who studied the assemblages to be included came from different research traditions. Benefits of comparative studies in lithic technology, and shared units of analysis. 
-	
-	Rezek et al. 
-Will et al. 
-	Riede, Hoggard, Shennan.
-	
-Overall, it is likely that some kinds of measurements and ways of making sense of the complex information that can be gleaned from stone tool assemblages are far more reliable than others (e.g. measurements of the maximum length of a flake). Even simple, reliable measurements serve as the basis for very important broad comparative studies (Rezek et al. 2018). However, much of the information we are interested in relates to more complex information about how cores are managed, changes in technologies over time beyond a narrow set of artifact measurements, or across sets of artifact classes as opposed to within a single artifact class. When we begin to try to operationalize change in this more complex domain of technological variation, we have run into issues. 
-
-
-# Solutions
-
-
-  Below I discuss these problems a bit more in depth, 
-  
-  
-  Solutions proposed by archaeologists. 
-	Record the learning pedigrees of lithicists in order to better understand biases (). 
-	Explicit definitions of types, attributes, etc. 
-		Whittaker et al. 1998. 
-Calibration of workers to a more experienced analyst. Double checking of data by experienced analyst (Gnadena and Holdaway 2000). 
-Working in large teams of well-trained researchers so that things can be double checked to improve reliability (Wilkins et al. 2017)
-	Computational methods of comparison (Grosman et al. 2008). 
-
-	Reliance on type collections. 	
-
-  
-  
-  However, comparative studies of technological change face several challenges. 
-  One solution to this problem has been to collect data on stone tool assemblages that relate to relatively coarse units of analysis, and can be recovered from the literature. For example, outs
-  
-  
-  
-  
-  
-  
-  Just as stone tool research approaches have evolved, so have the methods of how stone tool assemblages are analyzed and reported. Even within the African Middle Stone Age, a somewhat focused field of study, there is little agreement about what should be measured, and reported (Tryon and Will).  
- 
-
-
-
-
-
-
-
-
-  More to the point, the standards by which some traits are argued to be present, or the reasoning behind argued classifications, are often implicit.
-  
-  Because classifications are implicit, standardization is not possible, and attempts at universal methods of measuring variability are unlikely to be accepted. 
-  A lack of standardization, and common practice is especially an obstacle to analyses of lithic variation across sites, regions, and continents. Benefits of comparative studies in lithic technology, and shared units of analysis. 
-	
-	Rezek et al. 
-Will et al. 
-	Riede, Hoggard, Shennan.
-	
-
-Overall, it is likely that some kinds of measurements and ways of making sense of the complex information that can be gleaned from stone tool assemblages are far more reliable than others (e.g. measurements of the maximum length of a flake). Even simple, reliable measurements serve as the basis for very important broad comparative studies (Rezek et al. 2018). However, much of the information we are interested in relates to more complex information about how cores are managed, changes in technologies over time beyond a narrow set of artifact measurements, or across sets of artifact classes as opposed to within a single artifact class. When we begin to try to operationalize change in this more complex domain of technological variation, we have run into issues. 
-
-Stone tool research itself is made up of individuals, who each may have different experiences and tendencies when it comes to how they classify and report variation at archaeological sites. These differences cause error in coding the presence or absence of different kinds of artifact attributes (Gnaden and Holdaway 2000)., and on differences in how artifacts are fit into a given typology (citations in Gnaden and Holdaway 2000:741 P1). 
-
-Artifact descriptions as well may include terms that, over time, could reasonably be interpreted to cover a greater diversity of artifact features than any one individual who originally defined the term might anticipate (Gilboa et al. 2004:682). In this sense, how we publish descriptions of artifact types, technological industries, is somewhat similar to how definitions of words are recorded in English dictionaries. Dictionaries do not place restrictions on what meanings a word can have. So, words can accumulate new meanings as semantics evolve (Traugott and Dasher 2001). As a given word acquires new meanings in its usage, those can be added to the dictionary, either as an additional meaning, or as a homonym. This affords significant flexibility to how language develops. A word only must only enjoy common usage to enter the vernacular, and there are few mechanisms imposed by dictionaries to restrict what a word can mean. Those mechanisms largely operate in the social realm, as words are imitated, and taught, co-opted, experimented with, or misunderstood in various contexts.
-The flexibility of language is a problem for certain kinds of scientific research. For example, epidemiologists who study the efficacy of different kinds of health interventions on groups often rely on analyzing interview transcripts where an individual self report.. Perhaps a health intervention could make someone healthier, or less healthy,  make no difference either way, or perhaps there isn’t enough information in the interview to make any sort of conclusion. Often the context of a statement matter a great deal “Never been better” stated sarcastically in the middle of a hacking cough means something very different from being stated after a contented sigh. Given the flexility in which people communicate, researchers need explicit and unambiguous standards for when to make the determination between those four options based on the interview transcript. How much are the coders allowed to read-between-the-the-lines of such an interview?  Should they take the context into account, or do we always take “never been better” as evidence of the intervention working? If it is ever ambiguous like this do opt not to make a judgement call and remove that datapoint?  Researchers need to make sure that the means of deciding between how to code something like this aren’t in the individual coder, but are based on standardized criteria. Often, coders do come to very different conclusions about the contents of an interview (Hruscka et al., Macqueen et al.) and this is a big problem in reproducibility of research, and our ability to identify patterns. 
-
-In situations where there is complex information, and someone needs to make a decision, they are liable to fall on heuristics, and prior knowledge in making that judgement (Tversky and. Hruscka et al. macqueen et al.). This is one way in which systematic bias can be introduced to a study. 
-
-Solutions proposed by archaeologists. 
-	Record the learning pedigrees of lithicists in order to better understand biases (). 
-	Explicit definitions of types, attributes, etc. 
-		Whittaker et al. 1998. 
-Calibration of workers to a more experienced analyst. Double checking of data by experienced analyst (Gnadena and Holdaway 2000). 
-Working in large teams of well-trained researchers so that things can be double checked to improve reliability (Wilkins et al. 2017)
-	Computational methods of comparison (Grosman et al. 2008). 
-	Reliance on type collections. 	
-
-
-## Solutions outside archaeology
-
-Other fields in cognitive science, epidemiology, and medicine, have faced analogous problems, and have engaged in decades of development of best practices for breaking down massively complex data into coded descriptions that are reliable, and serve to answer questions about some phenomenon. People often rely on rules of thumb, and intuitive judgements when processing complex information of any kind (Hruschka et al. 2004, Kahneman et al. 1982). The more difficult that information is to process, the more inter-observer reliability is likely to suffer (Hruschka et al. 2004, Hagelin 2009). While working in teams, and calibrating workers to a single analyst are effective, they do not solve the problem in the long term. 
-
-To improve inter-observer reliability, we have developed a codebook following the design of those used at the Center for Disease Control for analyzing interview transcripts (MacQueen et al. 1998). Codebook entries include short and long descriptions of the procedural unit, typical and atypical examples as well as examples that are close, but are not to be coded as the procedural unit in question. Each example includes a mix of written terms and phrases as well as illustrations that might be found in a text (Appendix). While the codebook ensures the standards by which we count a procedural unit as present or absent is replicable, it cannot control for differences in how stone tool assemblages are reported. For example, typological summaries of lithic technologies report very different information from in depth technological summaries of lithic assemblages. To address this, we will sample only from unusually detailed technological summaries of lithic assemblages. Studies that report Levallois as present, for example, but do not offer detailed descriptions of how convexities were managed, and how platforms were prepared, were not sampled.  For this analysis, we also targeted the most complex chain reduction sequences present at each site (i.e. this is not a census of all techniques present at a site, just within a given tool making sequence). This is because we are not necessarily interested in the central tendency in complexity over time, but in when new thresholds were breached.  In total, we gathered and analyze procedural unit data on 52 tool making sequences. 
-
-I made this codebook while working on ways of quantifying variation in tool-making sequences across the archaeological record. In this case the unit of analysis is the technique, or procedural unit (Perreault et al., 2013). I coded procedural units as present or absent across archaeological assemblages, based on published reports describing those assemblages. Most systematic, comparative work on lithic technology has focused on units of analysis that are more consistent, and replicable across assemblages. For example flake and biface measurements, and shape variation can be very consistent between studies. Other aspects of lithic technology, like chaînes opératoire or reduction sequences that we are interested in, are not as easy to analyze statistically. Similarity and dissimilarity in them is difficult to quantify systematically because they represent qualitative data conveyed through prose descriptions, tables of artifact counts, and illustrations of individual artifacts and schematics of those sequences. How sequences are reported might vary by the research tradition of the analyst, and how I interpret those reports is also shaped by the tradition I am a part of. This is a big hurdle to making systematic comparisons of technology across many assemblages (Reynolds, 2018). 
-
-Reliably extracting the presence or absence of procedural units from the complex descriptions of stone tool technologies is a similar problem to that faced by scientists who code interview transcripts, and other texts. There are limits to human abilities to make sense of complex information, and individual scientists may use their own heuristics, and prior experience to collapse and make sense of that information. Those heuristics, and mental shortcuts introduce bias and error into the analysis (Hruschka et al., 2004; MacQueen et al., 1998; Tversky & Kahneman, 1974). One way to reduce this error is to give clear definitions of each procedural unit. 
-Clear definitions, however, are not enough. If I gave a careful definition of the procedural unit “core tablet“, there may be many forms that could be accomodated into that definition that I had not taken into account. Likewise, other researchers may have different standards by which they would count a“ core tablet“ as being present in an assemblage. Some may be happy to find flakes that have the features of a core tablet, and count them as core tablets. Others may only count flakes with those features if there are also cores with negative removals consistent with core tablet removals. Others may have very different ideas of what the features of a core tablet are, and slightly different interpretations of those features themselves. The problem with using only definitions, is that it does not give enough guidance on what forms do not meet that definition, and when we should code “core tablet“ as present. Social scientists at the Center for Disease Control encountered similar problems while coding interview transcripts and other texts for qualitative analysis. Their solution was to develop codebooks with explicit inclusion, and exclusion criteria.  
-
-This codebook follows a format developed at the CDC to ensure reliability in coding texts (MacQueen et al., 1998). Each procedural unit has a short, and longer definition (if needed). Additionally, each also has inclusion criteria. These inclusion criteria describe what features need to be present in a report for us to count the procedural unit as present. Each also has exclusion criteria. These describe what features in the text would be grounds to count the procedural unit as absent. For example, many procedural units only make sense to count as present if hierarchical core reduction is present. So, one exclusion criteria for those procedural units would be the absence of any evidence for hierarchical core reduction.  Each entry may also include typical, and atypical examples of the procedural unit. These may be illustrations, or text examples. These two help to further outline when it is appropriate to code a procedural unit as present. Finally, there is a “close, but no“ entry, which outlines what kinds of cases might be confused with the procedural unit. Some of these inclusion criteria are more exhaustive than others, especially in cases where I noticed that I came to different conclusions about how a procedural unit should be coded multiple times while double checking data. 
-
-Whether or not you agree with all the definitions, and coding criteria, you should be able to come closer to the same conclusions about how to code the presence or absence of any of these procedural units if you follow the standards outlined in the codebook than would be the case without reporting the criteria I employed. The codebook should evolve over time, as new logical inconsistencies or points of confusion are discovered. However, whatever version was used to code the data that then ends up in a final analysis, should be archived and made available to readers. This version of the codebook does not have example illustrations for procedural units to avoid copyright issues, but references to the illustrations are retained.  
+Likewise, other researchers may have different standards by which they would count a“ core tablet“ as being
+present in an assemblage. Some may be happy to find flakes that have the features of a core tablet, and count
+them as core tablets. Others may only count flakes with those features if there are also cores with negative
+removals consistent with core tablet removals. Others may have very different ideas of what the features of
+a core tablet are, and slightly different interpretations of those features themselves. The problem with using
+only definitions, is that it does not give enough guidance on what forms do not meet that definition, and
+when we should code “core tablet“ as present. Social scientists at the Center for Disease Control encountered
+similar problems while coding interview transcripts and other texts for qualitative analysis. Their solution
+was to develop codebooks with explicit inclusion, and exclusion criteria.
+This codebook follows a format developed at the CDC to ensure reliability in coding texts (MacQueen et
+al., 1998). Each procedural unit has a short, and longer definition (if needed). Additionally, each also has
+inclusion criteria. These inclusion criteria describe what features need to be present in a report for us to
+count the procedural unit as present. Each also has exclusion criteria. These describe what features in the
+text would be grounds to count the procedural unit as absent. For example, many procedural units only
+make sense to count as present if hierarchical core reduction is present. So, one exclusion criteria for those
+procedural units would be the absence of any evidence for hierarchical core reduction. Each entry may also
+include typical, and atypical examples of the procedural unit. These may be illustrations, or text examples.
+These two help to further outline when it is appropriate to code a procedural unit as present. Finally, there
+is a “close, but no“ entry, which outlines what kinds of cases might be confused with the procedural unit.
+Some of these inclusion criteria are more exhaustive than others, especially in cases where I noticed that
+I came to different conclusions about how a procedural unit should be coded multiple times while double
+checking data.
+Whether or not you agree with all the definitions, and coding criteria, you should be able to come closer
+to the same conclusions about how to code the presence or absence of any of these procedural units if
+you follow the standards outlined in the codebook than would be the case without reporting the criteria I
+employed. The codebook should evolve over time, as new logical inconsistencies or points of confusion are
+discovered. However, whatever version was used to code the data that then ends up in a final analysis, should
+be archived and made available to readers. This version of the codebook does not have example illustrations
+for procedural units to avoid copyright issues, but references to the illustrations are retained.
 
 # Definitions
 
@@ -841,8 +730,6 @@ Figure 16. Figure 5 illustrating burin variation at the PPNA site El Hemmeh (Smi
 Figure 17. Figure 14 illustrating tranchet axe variability at Motza (Khalaily et al., 2007).
 
 # Bibliography
-
-x
 
 
 Barzilai, O., & Goring-Morris, A. N. (2010). Bidirectional Blade Production at the PPNB Site of Kfar HaHoresh: The Techno-Typological Analysis of a Workshop Dump. Paléorient, 36(2), 5–34. https://doi.org/10.3406/paleo.2010.5386

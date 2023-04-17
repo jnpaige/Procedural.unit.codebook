@@ -4,10 +4,10 @@
 %
 \documentclass[
 ]{article}
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amssymb,amsmath}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
@@ -33,17 +33,8 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={A codebook for summarizing presence or absence of stone tool-making techniques reported in the literature},
-  pdfauthor={-Jonathan Paige},
-  pdfkeywords={keyword 1; keyword 2; keyword 3},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
 \usepackage[margin=1in]{geometry}
-\usepackage{graphicx,grffile}
+\usepackage{graphicx}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
@@ -65,13 +56,25 @@
 \usepackage{booktabs}
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{setspace}\doublespacing
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={A codebook for summarizing presence or absence of stone tool-making techniques reported in the literature v.1.0},
+  pdfauthor={-Jonathan Paige},
+  pdfkeywords={keyword 1; keyword 2; keyword 3},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
-\title{A codebook for summarizing presence or absence of stone tool-making
-techniques reported in the literature}
-\author{-Jonathan Paige\footnote{Institute of Human Origins, School of Human
-  Evolution and Social Change, Arizona State University,
+\title{A codebook for summarizing presence or absence of stone
+tool-making techniques reported in the literature v.1.0}
+\author{-Jonathan Paige\footnote{Institute of Human Origins, School of
+  Human Evolution and Social Change, Arizona State University,
   \href{mailto:jnpaige@asu.edu}{\nolinkurl{jnpaige@asu.edu}}}}
-\date{21 September, 2020}
+\date{}
 
 \begin{document}
 \maketitle
@@ -83,17 +86,14 @@ techniques reported in the literature}
 \hypertarget{version-details}{%
 \section{Version details:}\label{version-details}}
 
-This report was generated on 2020-09-21 15:49:48 The current Git commit
+This report was generated on 2023-04-16 21:47:57 The current Git commit
 details are:
 
 \begin{verbatim}
-## Local:    master C:/Users/Jon Paige/Google Drive/Dissertation/Chapters/Procedural.unit.codebook
+## Local:    master C:/Users/Jon Paige/Desktop/Procedural.unit.codebook
 ## Remote:   master @ origin (https://github.com/jnpaige/Procedural.unit.codebook.git)
-## Head:     [b890114] 2020-09-21: Refining formatting, changing spelling err.
+## Head:     [a762ac5] 2023-04-17: Update README.md
 \end{verbatim}
-
-\hypertarget{introduction}{%
-\section{Introduction}\label{introduction}}
 
 I made this codebook while working on ways of quantifying variation in
 tool-making sequences across the archaeological record. In this case the
@@ -113,12 +113,11 @@ individual artifacts and schematics of those sequences. How sequences
 are reported might vary by the research tradition of the analyst, and
 how I interpret those reports is also shaped by the tradition I am a
 part of. This is a big hurdle to making systematic comparisons of
-technology across many assemblages (Reynolds, 2018).
-
-Reliably extracting the presence or absence of procedural units from the
-complex descriptions of stone tool technologies is a similar problem to
-that faced by scientists who code interview transcripts, and other
-texts. There are limits to human abilities to make sense of complex
+technology across many assemblages (Reynolds, 2018). Reliably extracting
+the presence or absence of procedural units from the complex
+descriptions of stone tool technologies is a similar problem to that
+faced by scientists who code interview transcripts, and other texts.
+There are limits to human abilities to make sense of complex
 information, and individual scientists may use their own heuristics, and
 prior experience to collapse and make sense of that information. Those
 heuristics, and mental shortcuts introduce bias and error into the
@@ -127,53 +126,52 @@ Kahneman, 1974). One way to reduce this error is to give clear
 definitions of each procedural unit. Clear definitions, however, are not
 enough. If I gave a careful definition of the procedural unit ``core
 tablet``, there may be many forms that could be accomodated into that
-definition that I had not taken into account. Likewise, other
-researchers may have different standards by which they would count a``
-core tablet`` as being present in an assemblage. Some may be happy to
-find flakes that have the features of a core tablet, and count them as
-core tablets. Others may only count flakes with those features if there
-are also cores with negative removals consistent with core tablet
-removals. Others may have very different ideas of what the features of a
-core tablet are, and slightly different interpretations of those
-features themselves. The problem with using only definitions, is that it
-does not give enough guidance on what forms do not meet that definition,
-and when we should code ``core tablet`` as present. Social scientists at
-the Center for Disease Control encountered similar problems while coding
-interview transcripts and other texts for qualitative analysis. Their
-solution was to develop codebooks with explicit inclusion, and exclusion
-criteria.
+definition that I had not taken into account.
 
-This codebook follows a format developed at the CDC to ensure
-reliability in coding texts (MacQueen et al., 1998). Each procedural
-unit has a short, and longer definition (if needed). Additionally, each
-also has inclusion criteria. These inclusion criteria describe what
-features need to be present in a report for us to count the procedural
-unit as present. Each also has exclusion criteria. These describe what
-features in the text would be grounds to count the procedural unit as
-absent. For example, many procedural units only make sense to count as
-present if hierarchical core reduction is present. So, one exclusion
-criteria for those procedural units would be the absence of any evidence
-for hierarchical core reduction. Each entry may also include typical,
-and atypical examples of the procedural unit. These may be
-illustrations, or text examples. These two help to further outline when
-it is appropriate to code a procedural unit as present. Finally, there
-is a ``close, but no`` entry, which outlines what kinds of cases might
-be confused with the procedural unit. Some of these inclusion criteria
-are more exhaustive than others, especially in cases where I noticed
-that I came to different conclusions about how a procedural unit should
-be coded multiple times while double checking data.
-
-Whether or not you agree with all the definitions, and coding criteria,
-you should be able to come closer to the same conclusions about how to
-code the presence or absence of any of these procedural units if you
-follow the standards outlined in the codebook than would be the case
-without reporting the criteria I employed. The codebook should evolve
-over time, as new logical inconsistencies or points of confusion are
-discovered. However, whatever version was used to code the data that
-then ends up in a final analysis, should be archived and made available
-to readers. This version of the codebook does not have example
-illustrations for procedural units to avoid copyright issues, but
-references to the illustrations are retained.
+Likewise, other researchers may have different standards by which they
+would count a`` core tablet`` as being present in an assemblage. Some
+may be happy to find flakes that have the features of a core tablet, and
+count them as core tablets. Others may only count flakes with those
+features if there are also cores with negative removals consistent with
+core tablet removals. Others may have very different ideas of what the
+features of a core tablet are, and slightly different interpretations of
+those features themselves. The problem with using only definitions, is
+that it does not give enough guidance on what forms do not meet that
+definition, and when we should code ``core tablet`` as present. Social
+scientists at the Center for Disease Control encountered similar
+problems while coding interview transcripts and other texts for
+qualitative analysis. Their solution was to develop codebooks with
+explicit inclusion, and exclusion criteria. This codebook follows a
+format developed at the CDC to ensure reliability in coding texts
+(MacQueen et al., 1998). Each procedural unit has a short, and longer
+definition (if needed). Additionally, each also has inclusion criteria.
+These inclusion criteria describe what features need to be present in a
+report for us to count the procedural unit as present. Each also has
+exclusion criteria. These describe what features in the text would be
+grounds to count the procedural unit as absent. For example, many
+procedural units only make sense to count as present if hierarchical
+core reduction is present. So, one exclusion criteria for those
+procedural units would be the absence of any evidence for hierarchical
+core reduction. Each entry may also include typical, and atypical
+examples of the procedural unit. These may be illustrations, or text
+examples. These two help to further outline when it is appropriate to
+code a procedural unit as present. Finally, there is a ``close, but no``
+entry, which outlines what kinds of cases might be confused with the
+procedural unit. Some of these inclusion criteria are more exhaustive
+than others, especially in cases where I noticed that I came to
+different conclusions about how a procedural unit should be coded
+multiple times while double checking data. Whether or not you agree with
+all the definitions, and coding criteria, you should be able to come
+closer to the same conclusions about how to code the presence or absence
+of any of these procedural units if you follow the standards outlined in
+the codebook than would be the case without reporting the criteria I
+employed. The codebook should evolve over time, as new logical
+inconsistencies or points of confusion are discovered. However, whatever
+version was used to code the data that then ends up in a final analysis,
+should be archived and made available to readers. This version of the
+codebook does not have example illustrations for procedural units to
+avoid copyright issues, but references to the illustrations are
+retained.
 
 \hypertarget{definitions}{%
 \section{Definitions}\label{definitions}}
@@ -1130,7 +1128,7 @@ Figure 5. Figure 1 in in description of Levallois technology (Bordes,
 Figure 6. Figure 2 in description of Levallois technology (Bordes,
 1980).
 
-Figure 7. Figure 5 description of bladelet core preparation at `Ein
+Figure 7. Figure 5 description of bladelet core preparation at 'Ein
 Qashish with distal preparation at step 4.(Malinsky-Buller et al., 2014)
 
 Figure 8. Figure 2. Schematic illustrating busqued burin production
@@ -1166,8 +1164,6 @@ Figure 17. Figure 14 illustrating tranchet axe variability at Motza
 
 \hypertarget{bibliography}{%
 \section{Bibliography}\label{bibliography}}
-
-x
 
 Barzilai, O., \& Goring-Morris, A. N. (2010). Bidirectional Blade
 Production at the PPNB Site of Kfar HaHoresh: The Techno-Typological
@@ -1218,7 +1214,7 @@ Development for Team-Based Qualitative Analysis. CAM Journal, 10(2),
 31--36. \url{https://doi.org/10.1177/1525822X980100020301}
 
 Malinsky-Buller, A., Ekshtain, R., \& Hovers, E. (2014). Organization of
-lithic technology at `Ein Qashish, a late Middle Paleolithic open-air
+lithic technology at 'Ein Qashish, a late Middle Paleolithic open-air
 site in Israel. Quaternary International, 331, 234--247.
 \url{https://doi.org/10.1016/j.quaint.2013.05.004}
 
