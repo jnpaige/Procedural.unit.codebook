@@ -5,16 +5,19 @@
 \documentclass[
 ]{article}
 \usepackage{amsmath,amssymb}
-\usepackage{lmodern}
 \usepackage{iftex}
 \ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
 \else % if luatex or xetex
-  \usepackage{unicode-math}
+  \usepackage{unicode-math} % this also loads fontspec
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -61,7 +64,7 @@
 \fi
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same} % disable monospaced font for URLs
+\urlstyle{same}
 \hypersetup{
   pdftitle={A codebook for summarizing presence or absence of stone tool-making techniques reported in the literature v.1.0},
   pdfauthor={-Jonathan Paige},
@@ -86,13 +89,13 @@ tool-making techniques reported in the literature v.1.0}
 \hypertarget{version-details}{%
 \section{Version details:}\label{version-details}}
 
-This report was generated on 2023-04-16 21:47:57 The current Git commit
-details are:
+This report was generated on 2024-03-26 14:35:10.578523 The current Git
+commit details are:
 
 \begin{verbatim}
-## Local:    master C:/Users/Jon Paige/Desktop/Procedural.unit.codebook
+## Local:    master C:/Users/jprnr/OneDrive - University of Missouri/Desktop/Procedural.unit.codebook
 ## Remote:   master @ origin (https://github.com/jnpaige/Procedural.unit.codebook.git)
-## Head:     [a762ac5] 2023-04-17: Update README.md
+## Head:     [ebf60e1] 2024-03-26: Fixed some formatting problems and printed to docx
 \end{verbatim}
 
 I made this codebook while working on ways of quantifying variation in
@@ -210,25 +213,25 @@ platform.
 \hypertarget{raw-material-treatment}{%
 \subsection{Raw material treatment}\label{raw-material-treatment}}
 
-\textbf{Short Description} Heat treatment of raw material
+\textbf{Short Description:} Heat treatment of raw material
 
-\textbf{Definition} Heating of raw material in order to improve
+\textbf{Definition:} Heating of raw material in order to improve
 workability. This process alters the fracture mechanics of raw material,
 and often causes changes in texture, and color.
 
-\textbf{Inclusion criteria} If heat treatment is described as present,
+\textbf{Inclusion criteria:} If heat treatment is described as present,
 code as yes. If heating is described, and reference made to
 glassy/glossy texture of raw material as a result of heating, code as
 present.
 
-\textbf{Exclusion criteria} Heat treatment not mentioned in text.
+\textbf{Exclusion criteria:} Heat treatment not mentioned in text.
 
-\textbf{Typical exemplars} ``Flint was/was likely heat treated''
+\textbf{Typical exemplars:} ``Flint was/was likely heat treated''
 
-\textbf{Atypical exemplars} ``flint was glossed/waxy/greasy from
+\textbf{Atypical exemplars:} ``flint was glossed/waxy/greasy from
 heating''
 
-\textbf{Close but no} ``material was fired'', ``material bears signs of
+\textbf{Close but no:} ``material was fired'', ``material bears signs of
 thermal alteration'', Images of pieces that appear to have been heat
 treated, but without accompanying text describing them as heat treated.
 ``Some flints had a glossy/waxy/greasy appearance''.
@@ -236,19 +239,19 @@ treated, but without accompanying text describing them as heat treated.
 \hypertarget{faceting-of-core-platform}{%
 \subsection{Faceting of core platform}\label{faceting-of-core-platform}}
 
-\textbf{Short Description} Shaping of a core platform by striking flakes
-into the platform from the face of the core.
+\textbf{Short Description:} Shaping of a core platform by striking
+flakes into the platform from the face of the core.
 
-\textbf{Definition} Removal of two or more flakes struck into the face
+\textbf{Definition:} Removal of two or more flakes struck into the face
 of a core across the platform, forming a platform with two or more
 parallel facets.
 
-\textbf{Inclusion criteria} Include in cases only where hierarchical
+\textbf{Inclusion criteria:} Include in cases only where hierarchical
 core reduction is described. Code if facetting of platforms is described
 in the text as a method of preparing platforms. Code if illustrations
 show evidence of faceting.
 
-\textbf{Exclusion criteria} Determining presence based on illustrations
+\textbf{Exclusion criteria:} Determining presence based on illustrations
 alone requires illustrations of the platforms themselves. Inferring
 platform faceting from dorsal or ventral views of a flake are
 inappropriate. Do not code if no mention of faceting of platforms. Do
@@ -256,15 +259,15 @@ not code if no other evidence of hierarchical core reduction described.
 Do not code if the flakes were likely not struck into the face of the
 core
 
-\textbf{Typical exemplars} Figure 1. Pieces a, c, d, e, f, g, h.
+\textbf{Typical exemplars:} Figure 1. Pieces a, c, d, e, f, g, h.
 
-\textbf{Atypical exemplars} Figure 1. Piece b. Figure 2. Pieces 1, 3-7,
+\textbf{Atypical exemplars:} Figure 1. Piece b. Figure 2. Pieces 1, 3-7,
 Figure 3. Step D.
 
-\textbf{Close but no} Phrases like ``platforms were carefully prepared''
-without additional supporting information about the nature of that
-preparation. Single or very sparse instances of facetted or dihedral
-platforms, especially where no other evidence of hierarchical
+\textbf{Close but no:} Phrases like ``platforms were carefully
+prepared'' without additional supporting information about the nature of
+that preparation. Single or very sparse instances of facetted or
+dihedral platforms, especially where no other evidence of hierarchical
 reduction** ``Nevertheless it is important to mention that within the
 excluded material of the `MSA base-complex' (see above) one
 flake\ldots{} shows characteristics of a Levallois preferential flake
@@ -276,97 +279,99 @@ to code as present.
 \subsection{Face shaping through radial
 removals}\label{face-shaping-through-radial-removals}}
 
-\textbf{Short Description} Shaping of the face of a core through
+\textbf{Short Description:} Shaping of the face of a core through
 centripetal removals along the perimeter of a core face.
 
-\textbf{Definition} Flakes taken to modify the distal, lateral, medial
+\textbf{Definition:} Flakes taken to modify the distal, lateral, medial
 convexities of a round core face, to prepare it for preferential
 removals. The preferential removals could be unidirectional or
 bidirectional blades, or preferential flakes.
 
-\textbf{Inclusion criteria} Consistent evidence for radial scars on
+\textbf{Inclusion criteria:} Consistent evidence for radial scars on
 blanks. Cores with evidence of centripetal preparation and hierarchical
 setup. Core faces should be rounded/oval, not rectilinear. Description
 of centripetal preparation of cores.
 
-\textbf{Exclusion criteria} radial cores without evidence for
+\textbf{Exclusion criteria:} radial cores without evidence for
 preferential removals, presence of only lateral trimming, or distal
 trimming flakes on a prepared core.
 
-\textbf{Typical exemplars} Figure 5. Pieces 1, 2, 4, 7.
+\textbf{Typical exemplars:} Figure 5. Pieces 1, 2, 4, 7.
 
-\textbf{Atypical exemplars}
+\textbf{Atypical exemplars:}
 
-\textbf{Close but no} Figure 5. Pieces 3, 5, 6. Discoid cores,
+\textbf{Close but no:} Figure 5. Pieces 3, 5, 6. Discoid cores,
 non-hierarchical core faces, biface thinning, cores of a rectilinear
 shape with both lateral trimming and distal trimming.
 
 \hypertarget{lateral-trimming}{%
 \subsection{Lateral trimming}\label{lateral-trimming}}
 
-\textbf{Short Description} Lateral convexity of core face is shaped with
-flakes initiated from platforms along lateral margins of core.\\
+\textbf{Short Description:} Lateral convexity of core face is shaped
+with flakes initiated from platforms along lateral margins of core.\\
 Definition** The lateral convexities of the face of a core are trimmed
 through the removal of flakes from the lateral margin of the face
 (i.e.~from platforms parallel to main flaking axis)
 
-\textbf{Inclusion criteria} Explicit descriptions of lateral trimming on
-hierarchical cores, and unambiguous illustrations of cores with lateral
-trimming.
+\textbf{Inclusion criteria:} Explicit descriptions of lateral trimming
+on hierarchical cores, and unambiguous illustrations of cores with
+lateral trimming.
 
-\textbf{Exclusion criteria} Do not count if** lateral flakes were struck
-only during radial/centripetal preparation of a core face, If lateral
-convexities are only trimmed through debordante removals, or if part of
-lateral margin of a core has flake removals on it, but that core is not
-preferential, or hierarchical. Also do not count if the lateral margin
-of a core has flake scars perpendicular to the main flaking axis, but
-those flakes originated from a crest used to establish the core face, or
-otherwise did not originate from a platform at the lateral margin of the
-core.
+\textbf{Exclusion criteria:} Do not count if** lateral flakes were
+struck only during radial/centripetal preparation of a core face, If
+lateral convexities are only trimmed through debordante removals, or if
+part of lateral margin of a core has flake removals on it, but that core
+is not preferential, or hierarchical. Also do not count if the lateral
+margin of a core has flake scars perpendicular to the main flaking axis,
+but those flakes originated from a crest used to establish the core
+face, or otherwise did not originate from a platform at the lateral
+margin of the core.
 
-\textbf{Typical exemplars} Figure 6, no. 4.
+\textbf{Typical exemplars:} Figure 6, no. 4.
 
-\textbf{Atypical exemplars} Figure 5. Piece 3.
+\textbf{Atypical exemplars:} Figure 5. Piece 3.
 
-\textbf{Close but no} descriptions of debordant, but without further
+\textbf{Close but no:} descriptions of debordant, but without further
 specifics about the orientation of trimming flakes.
 
 \hypertarget{distal-trimming}{%
 \subsection{Distal trimming}\label{distal-trimming}}
 
-\textbf{Short Description} Face shaped with flakes initiated from
-platform at distal margin of core Definition** Distal convexities of the
-face of a hierarchical core are managed through the removal of flakes
-from a platform at the distal margin of the core (i.e.~the platform is
-perpendicular to the main flaking axis).
+\textbf{Short Description:} Face shaped with flakes initiated from
+platform at distal margin of core
 
-\textbf{Inclusion criteria} Core faces show evidence for flake removals
+\textbf{Definition:} Distal convexities of the face of a hierarchical
+core are managed through the removal of flakes from a platform at the
+distal margin of the core (i.e.~the platform is perpendicular to the
+main flaking axis).
+
+\textbf{Inclusion criteria:} Core faces show evidence for flake removals
 from distal margin. Must be on hierarchical cores, and must be in
 context of managing distal convexities of the core.
 
-\textbf{Exclusion criteria} Do not count if** the core could be
+\textbf{Exclusion criteria:} Do not count if** the core could be
 reasonably characterized as centripetally prepared, if these are flakes
 initiated from the distal margin that trim the lateral margins of a
 core, like what we might find in a Nubian Levallois core. Do not count
 as present if no hierarchical cores are present.
 
-\textbf{Typical exemplars} Figure 5, Levallois cores numbers 5, 6.,
+\textbf{Typical exemplars:} Figure 5, Levallois cores numbers 5, 6.,
 Figure 6, Levallois core with lateral trimming, number 4. Figure 7. Step
 4 in blademaking sequence.
 
-\textbf{Atypical exemplars} Figure 8. Step 3 in Chazan's description of
+\textbf{Atypical exemplars:} Figure 8. Step 3 in Chazan's description of
 La Ferrassie bladelets. Notching a bladelet, to supply end point of
 microblades taken from lateral margin of that bladelet core. Controls
 length of flaking surface by establishing/shaping a distal convexity.
 
-\textbf{Close but no}
+\textbf{Close but no:} NA
 
 \hypertarget{back-shaping}{%
 \subsection{Back shaping}\label{back-shaping}}
 
-\textbf{Short Description} Back of the core is shaped.
+\textbf{Short Description:} Back of the core is shaped.
 
-\textbf{Definition} Back of core is shaped, as is case among naviform
+\textbf{Definition:} Back of core is shaped, as is case among naviform
 cores, and Asian microblade cores. All examples so far identified are
 cases where a nodule was bifacially flaked. One of the flaked crests
 then is used to remove one or two crested blades to establish a platform
@@ -374,42 +379,44 @@ and face. Then flakes are removed from that platfom until exhausted.
 When exhausted there remains evidence of original bifacial flaking at
 the back of the core.
 
-\textbf{Inclusion criteria} Back of hierarchical core is shaped,
+\textbf{Inclusion criteria:} Back of hierarchical core is shaped,
 typically bifacially.
 
-\textbf{Exclusion criteria} Crested blades are present, but no
+\textbf{Exclusion criteria:} Crested blades are present, but no
 illustrations of cores showing evidence for a modified back/non-flaking
 surface.
 
-\textbf{Typical exemplars} Figure 9. Piece 2b.
+\textbf{Typical exemplars:} Figure 9. Piece 2b.
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{cresting}{%
 \subsection{Cresting}\label{cresting}}
 
-\textbf{Short Description} Cresting to shape core face during initial
-steps of core preparation. Definition** A core is bifacially or
-unifacially flaked along one axis. That crest establishes an artificial
-ridge along which an elongated flake, with a crested (entirely or
-partially) dorsal surface is removed.
+\textbf{Short Description:} Cresting to shape core face during initial
+steps of core preparation.
 
-\textbf{Inclusion criteria} Cresting of core faces is described as
+\textbf{Definition:} A core is bifacially or unifacially flaked along
+one axis. That crest establishes an artificial ridge along which an
+elongated flake, with a crested (entirely or partially) dorsal surface
+is removed.
+
+\textbf{Inclusion criteria:} Cresting of core faces is described as
 present and/or figures show elements flakes bearing a crest, with at
 least a partial crest platform present.
 
-\textbf{Exclusion criteria} Cresting of core faces is described as
+\textbf{Exclusion criteria:} Cresting of core faces is described as
 absent. No mention in the text, and there are no illustration of crested
 pieces. For example** from Shimelmitz et. Al. 2011** ``The reduction
 takes advantage of the natural shape of the raw material and does not
 include pre-shaping and decortication''.
 
-\textbf{Typical exemplars} Figure 10. Flakes whose dorsal surface bears
+\textbf{Typical exemplars:} Figure 10. Flakes whose dorsal surface bears
 a full bifacially flaked crest. Pieces 1, 2, 4, 5, 6, 7.
 
-\textbf{Atypical exemplars} From Wilkins and Chazan** ``The rarity of
+\textbf{Atypical exemplars:} From Wilkins and Chazan** ``The rarity of
 crested blades (0.3\%, Table 7) and the presence of blades with
 centripetal flake dorsal scars on one side only (4.2\%, Fig. 9e,h) are
 most consistent with a reduction strategy that generally prepared the
@@ -422,7 +429,7 @@ blade/bladelet suggests that, in general, cresting was not necessary,
 and the natural shape of cobbles/nodules allowed the production of
 elongated debitage without cresting.''(Smith et al., 2016).
 
-\textbf{Close but no} flakes with laterally oriented dorsal scars.
+\textbf{Close but no:} flakes with laterally oriented dorsal scars.
 Partially crested blades, where no element of the platform of the crest
 is present. Ski spall flakes removed during reduction of naviform cores
 which were prepared through cresting. Flakes with unifacial cresting,
@@ -432,10 +439,10 @@ as described in Smith et al.~2016.
 \hypertarget{debordantes}{%
 \subsection{Debordantes}\label{debordantes}}
 
-\textbf{Short Description} Elongated flakes along lateral margins of
+\textbf{Short Description:} Elongated flakes along lateral margins of
 core face, knapped along the axis of the main flaking surface.
 
-\textbf{Definition} Elongated flakes removed from lateral margins of
+\textbf{Definition:} Elongated flakes removed from lateral margins of
 core face, knapped along the axis of the main flaking surface.
 Debordantes only include materials that maintain lateral and distal and
 sometimes proximal convexities of a core face. These can be removed
@@ -447,7 +454,7 @@ refered to as naturally backed blades or knives (Shimelmitz et al.,
 that are not from hierarchical preferential cores, that happen to have a
 wedge shaped cross section.
 
-\textbf{Inclusion criteria} Must be in association with
+\textbf{Inclusion criteria:} Must be in association with
 description/illustration of hierarchical preferential cores. If that
 condition is met, and the term debordante is used and likely is not
 referring to what we would otherwise code as lateral trimming, count as
@@ -458,21 +465,21 @@ removals in illustrations. If ``debordante'' is not used, but there are
 phrases like ``elongated flakes were used to alighn the core face/modify
 lateral and distal convexities/modify core edges'' count as present.
 
-\textbf{Exclusion criteria} Naturally backed flakes described as
+\textbf{Exclusion criteria:} Naturally backed flakes described as
 present, but there is no mention of their function in maintaining the
 face geometry of the core, or convexities of the core. Flakes are
 described as debordante, but there is otherwise no mention illustration
 or description of the nature of cores. Or, there is description of cores
 and they are non-hierarchical/amorphous.
 
-\textbf{Typical exemplars} From Wilkins and Chazan** ``Débordant
+\textbf{Typical exemplars:} From Wilkins and Chazan** ``Débordant
 flakes/blades with unidirectional or bidirectional dorsal scars and a
 preserved lateral platform surface are also present in the assemblage (n
 ¼ 13, 1.3\%, Fig. 9a) and may have sometimes been used to rejuvenate
 core edges''(Wilkins \& Chazan, 2012). Figure 5. Pieces 5, 6, and 9 in
 figure below.
 
-\textbf{Atypical exemplars} Naturally backed blades described in
+\textbf{Atypical exemplars:} Naturally backed blades described in
 Shimelmitz et al.~2011. Pieces that are described as backed but in
 context of discussion about managing lateral convexities. For example**
 ``Only one elongated flake could be attributed to the Taramsa reduction
@@ -480,43 +487,43 @@ method. The presence of many backed pieces (N=10) confirms this trend,
 since these flakes are removed to maintain the strong lateral convexity
 of the core''(Spinapolice \& Garcea, 2013). Figure 5. Piece 8.
 
-\textbf{Close but no} Discussion of face shaping with flake removals or
+\textbf{Close but no:} Discussion of face shaping with flake removals or
 discussion of naturally backed blades/knives/flakes without mention of
 the role they served in maintaining face shape/convexity.
 
 \hypertarget{overshot-flakes}{%
 \subsection{Overshot flakes}\label{overshot-flakes}}
 
-\textbf{Short Description} Elongated flake removals that clip or remove
+\textbf{Short Description:} Elongated flake removals that clip or remove
 the distal margin of the core.
 
-\textbf{Definition} Medial and distal convexities of a core face on a
+\textbf{Definition:} Medial and distal convexities of a core face on a
 preferential hierarchical core are modified with an invasive flake that
 removes the distal end of the core, which may bear a platform (often
 opposed to its own) on the distal margin.
 
-\textbf{Inclusion criteria} Flakes or blades that extend across the
+\textbf{Inclusion criteria:} Flakes or blades that extend across the
 entire face of the core must be in association with hierarchical
 blade/bladelet/microblade cores, discussion must include discussion of
 overshot blades/flakes, and/or include illustrations of overshot
 flakes/blades.
 
-\textbf{Exclusion criteria} No argument for presence. No Hierarchical
+\textbf{Exclusion criteria:} No argument for presence. No Hierarchical
 preferential cores. No overshot blades/flakes in illustrations. No
 discussion of overshot blade/flake role in modifying distal
 convexity/rejuvenating distal platform.
 
-\textbf{Typical exemplars} Shimelmitz et al.~2011** ``The frequent
+\textbf{Typical exemplars:} Shimelmitz et al.~2011** ``The frequent
 removal of laminar items with an overpassing end termination along the
 reduction in order to control core convexities.''
 
-\textbf{Atypical exemplars} From Wilkins and Chazan. ``Blades preserving
-a distal striking platform (Fig. 7d) further attest to the bidirectional
-production of blades.''. This phrase has enough information for us to
-code this as an overshot blade, but there is also supporting information
-in the figure showing overshot blades.
+\textbf{Atypical exemplars:} From Wilkins and Chazan. ``Blades
+preserving a distal striking platform (Fig. 7d) further attest to the
+bidirectional production of blades.''. This phrase has enough
+information for us to code this as an overshot blade, but there is also
+supporting information in the figure showing overshot blades.
 
-\textbf{Close but no} Blades that are thick at the distal end, but do
+\textbf{Close but no:} Blades that are thick at the distal end, but do
 not bear the distal end of the core. Flakes that have a distal end of
 core, but the distal end is cortex. Overshot flakes are present in an
 assemblage, but there is no evidence for hierarchical core reduction.
@@ -524,24 +531,25 @@ assemblage, but there is no evidence for hierarchical core reduction.
 \hypertarget{kombewa}{%
 \subsection{Kombewa}\label{kombewa}}
 
-\textbf{Short Description} Removal of flake from ventral surface of a
+\textbf{Short Description:} Removal of flake from ventral surface of a
 flake
 
-\textbf{Definition} Ventral surface of a flake is treated as a core face
+\textbf{Definition:} Ventral surface of a flake is treated as a core
+face
 
-\textbf{Inclusion criteria} Kombewa technique described as present,
+\textbf{Inclusion criteria:} Kombewa technique described as present,
 ``janus flakes'' and the processes to make them are described
 
-\textbf{Exclusion criteria} Discussion of removal of flakes from flakes
+\textbf{Exclusion criteria:} Discussion of removal of flakes from flakes
 is ambiguous about whether or not kombewa technique is present. No
 mention of janus flakes.
 
-\textbf{Typical exemplars} ``cleavers were made on sometimes completely
+\textbf{Typical exemplars:} ``cleavers were made on sometimes completely
 unmodified Kombewa flakes''
 
-\textbf{Atypical exemplars}
+\textbf{Atypical exemplars:}
 
-\textbf{Close but no} Core on flake described as present without
+\textbf{Close but no:} Core on flake described as present without
 discussion of where the flaking surface is on that flake. Flakes from
 retouching large flakes, which be initiated at dorsal margin, and
 capture some of the ventral surface. Scars not propagated across ventral
@@ -550,20 +558,20 @@ surface. Burin spalls, or tranchet spalls taken from flakes.
 \hypertarget{core-tablet-removals}{%
 \subsection{Core tablet removals}\label{core-tablet-removals}}
 
-\textbf{Short Description} Flake removals that rejuvinate or prepare a
+\textbf{Short Description:} Flake removals that rejuvinate or prepare a
 core platform, by removing some or all of the core platform.
 
-\textbf{Definition} Striking a flake into the face of a core, where the
+\textbf{Definition:} Striking a flake into the face of a core, where the
 dorsal surface of that flake is the main platform of a core. These are
 intended to rejuvinate the core platform by establishing a fresh flaking
 surface.
 
-\textbf{Inclusion criteria} Descriptions of core tablets, or
+\textbf{Inclusion criteria:} Descriptions of core tablets, or
 illustrations of core tablets themselves and the function they served in
 rejuvenating core platforms, or illustrations of cores with strong
 evidence for core tablet removals.
 
-\textbf{Exclusion criteria} Coding as present should not be based only
+\textbf{Exclusion criteria:} Coding as present should not be based only
 on illustrations of pieces that look like tablets. It should also not
 normally be based on illustrations of cores that have a single scar as
 the platform without supporting evidence that that scar was made to
@@ -573,10 +581,10 @@ but no other evidence for hierarchical cores, Flakes with large facetted
 proximal margins without any other information in the text about
 rejuvenation of platforms.
 
-\textbf{Typical exemplars} Figure 11. Cores a and d.~Phrases like, `the
+\textbf{Typical exemplars:} Figure 11. Cores a and d.~Phrases like, `the
 assemblage has several core tablets'.
 
-\textbf{Atypical exemplars} Figure 11. Cores b and e. In Figure 12 we
+\textbf{Atypical exemplars:} Figure 11. Cores b and e. In Figure 12 we
 can see that a flake was taken across the top of the core (the negative
 bulb of the flake is present) and this flake erased the negative bulbs
 of several of the blade scars (the flake did not just establish a
@@ -584,7 +592,7 @@ platform, but was taken after several blades had been struck. These
 lines of evidence on a single platform hierarchical core are sufficient
 to infer that these cores were rejuvenated with tablets.
 
-\textbf{Close but no} Figure 12. Pieces 1-4. Without additional
+\textbf{Close but no:} Figure 12. Pieces 1-4. Without additional
 information about the geometry of the core from which these were taken,
 we should not call these core tablets (though the paper from which the
 figure is borrowed provides enough context to call these tablets).
@@ -592,467 +600,467 @@ figure is borrowed provides enough context to call these tablets).
 \hypertarget{abrasiongrinding}{%
 \subsection{Abrasion/grinding}\label{abrasiongrinding}}
 
-\textbf{Short Description} Abrasion or grinding performed at any point
+\textbf{Short Description:} Abrasion or grinding performed at any point
 in reduction sequence.
 
-\textbf{Definition} Core was abraded/ground to strengthen platform, or
+\textbf{Definition:} Core was abraded/ground to strengthen platform, or
 tools were abraded or ground as part of production sequence.
 
-\textbf{Inclusion criteria} any discussion of the abrasion, rubbing, of
+\textbf{Inclusion criteria:} any discussion of the abrasion, rubbing, of
 the core platform in relation to platform preparation in the text, or
 the presence of grinding/abrasion to finish a tool.
 
-\textbf{Exclusion criteria} No explicit description of abrasion as the
+\textbf{Exclusion criteria:} No explicit description of abrasion as the
 strategy used to prepare the platform. Platform preparation described,
 but the kind of preparation not explicitly described. Tools appear
 ground/abraded but no discussion of the technique in text.
 
-\textbf{Typical exemplars} `platforms were prepared by abrasion.'
+\textbf{Typical exemplars:} `platforms were prepared by abrasion.'
 
-\textbf{Atypical exemplars} ``These bifaces have several common
+\textbf{Atypical exemplars:} ``These bifaces have several common
 attributes. All were primarily shaped by abrasion by rubbing with a
 coarse material, leaving parallel striae on their surface'' (Rosenthal,
 1996).
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{overhang-removalmicrochipping-of-area-below-platform}{%
 \subsection{Overhang removal/microchipping of area below
 platform}\label{overhang-removalmicrochipping-of-area-below-platform}}
 
-\textbf{Short Description} Removal of chips to modify area below
+\textbf{Short Description:} Removal of chips to modify area below
 platform.
 
-\textbf{Definition} Removal of chips initiated from platform to modify
+\textbf{Definition:} Removal of chips initiated from platform to modify
 proximal margin of core face/proximal convexities, and modify the
 platform angle.
 
-\textbf{Inclusion criteria} Illustrations show small flakes removed at
+\textbf{Inclusion criteria:} Illustrations show small flakes removed at
 proximal margin of flakes, or on areas below core platforms.
 Descriptions of overhang removal, or microchipping of platform in text.
 
-\textbf{Exclusion criteria} No evidence of microchipping, overhang
+\textbf{Exclusion criteria:} No evidence of microchipping, overhang
 removal described in text, or in illustrations. Microchipping described
 in text, but this refers to what we would otherwise code as faceting.
 
-\textbf{Typical exemplars} NA
+\textbf{Typical exemplars:} NA
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{percussion-by-striking-with-hard-hammer}{%
 \subsection{Percussion by striking with hard
 hammer}\label{percussion-by-striking-with-hard-hammer}}
 
-\textbf{Short Description} Use of a hard hammer
+\textbf{Short Description:} Use of a hard hammer
 
-\textbf{Definition} Use of a hard hammer strike onto some substrate,
+\textbf{Definition:} Use of a hard hammer strike onto some substrate,
 whether it is a core, held in the had, mounted on an anvil, or whether
 the hammer itself was struck on an anvil (as in case of passive hammer
 technique)
 
-\textbf{Inclusion criteria} If flakes are produced in assemblage, count
+\textbf{Inclusion criteria:} If flakes are produced in assemblage, count
 as present unless explicitly stated as absent
 
-\textbf{Exclusion criteria} Explicit statement in text saying hard
+\textbf{Exclusion criteria:} Explicit statement in text saying hard
 hammer use was absent
 
-\textbf{Typical exemplars} NA
+\textbf{Typical exemplars:} NA
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{core-supported-by-hand}{%
 \subsection{Core supported by hand}\label{core-supported-by-hand}}
 
-\textbf{Short Description} Any stage of tool manufacture includes
+\textbf{Short Description:} Any stage of tool manufacture includes
 holding the core in hand while striking it (i.e.~use of anvil is
 absent).
 
-\textbf{Definition} NA
+\textbf{Definition:} NA
 
-\textbf{Inclusion criteria} Count as present if bipolar percussion is
+\textbf{Inclusion criteria:} Count as present if bipolar percussion is
 not described as present, if description of freehand percussion in text.
 
-\textbf{Exclusion criteria} Explicit statement in text saying only
+\textbf{Exclusion criteria:} Explicit statement in text saying only
 bipolar, or passive anvil technique was employed, or description only of
 flake removals while core was mechanically mounted, or otherwise not
 supported by hand.
 
-\textbf{Typical exemplars} NA
+\textbf{Typical exemplars:} NA
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{use-of-anvil-to-support-core}{%
 \subsection{Use of anvil to support
 core}\label{use-of-anvil-to-support-core}}
 
-\textbf{Short Description} Any incorporation of an anvil in the
+\textbf{Short Description:} Any incorporation of an anvil in the
 reduction process.
 
-\textbf{Definition} Use of an anvil at any point in the tool reduction
+\textbf{Definition:} Use of an anvil at any point in the tool reduction
 sequence.
 
-\textbf{Inclusion criteria} Any discussion of anvil use, all cases of
+\textbf{Inclusion criteria:} Any discussion of anvil use, all cases of
 bipolar percussion, except where bipolar refers to flake removals from
 two opposing platforms where an anvil is not used (i.e.~a bidirectional
 core without bipolar percussion). Cases where bipolar is mentioned must
 also have some visual evidence for bipolar percussion with an anvil (in
 the form of scaled pieces, for example).
 
-\textbf{Exclusion criteria} Bipolar percussion not mentioned in text. No
-mention of use of anvil to support core in any way.
+\textbf{Exclusion criteria:} Bipolar percussion not mentioned in text.
+No mention of use of anvil to support core in any way.
 
-\textbf{Typical exemplars} ``\ldots many of our early replications were
+\textbf{Typical exemplars:} ``\ldots many of our early replications were
 performed with the aid of an anvil (Figure 5), and this was found to be
 a successful technique for creating the initial steep sides on large
 flakes and cobbles. Anvil resting was more successful than true bipolar
 flaking in generating steep-angled edges and moving flaking on to new
 edges'' (Clarkson et al., 2015** p.74)
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
 \hypertarget{core-rotation}{%
 \subsection{Core rotation}\label{core-rotation}}
 
-\textbf{Definition} Core rotated at any point in reduction sequence
+\textbf{Definition:} Core rotated at any point in reduction sequence
 
-\textbf{Inclusion criteria} Any evidence of flakes removed across two or
-more distinct axes.
+\textbf{Inclusion criteria:} Any evidence of flakes removed across two
+or more distinct axes.
 
-\textbf{Exclusion criteria} Single platform cores are present without
+\textbf{Exclusion criteria:} Single platform cores are present without
 evidence of removals across the top of the core.
 
-\textbf{Typical exemplars} NA
+\textbf{Typical exemplars:} NA
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{soft-hammer}{%
 \subsection{Soft Hammer}\label{soft-hammer}}
 
-\textbf{Short Description} Use of a soft hammer
+\textbf{Short Description:} Use of a soft hammer
 
-\textbf{Definition} use of a soft hammer (whether the material be wood,
+\textbf{Definition:} use of a soft hammer (whether the material be wood,
 bone, soft stone, etc).
 
-\textbf{Inclusion criteria} Authors explicitly state that soft hammer
+\textbf{Inclusion criteria:} Authors explicitly state that soft hammer
 percussion was likely used OR soft hammers present in the archaeological
 assemblage, and forms of pieces appear consistent with use of soft
 hammers. For example, if delicate, thin, wide flakes present and
 soft-hammers were recovered from related contexts.
 
-\textbf{Exclusion criteria} No mention of soft hammer use, no
+\textbf{Exclusion criteria:} No mention of soft hammer use, no
 soft-hammers present in the assemblage. Evidence for soft hammer use
 described as unclear.
 
-\textbf{Typical exemplars} `Soft hammer use likely occurred'
+\textbf{Typical exemplars:} `Soft hammer use likely occurred'
 
-\textbf{Atypical exemplars} `Soft hammers are necessary for producing
+\textbf{Atypical exemplars:} `Soft hammers are necessary for producing
 these forms, also see Figure x. for soft hammers recovered from the
 archaeological record'
 
-\textbf{Close but no} `Soft hammer use could have been employed/other
+\textbf{Close but no:} `Soft hammer use could have been employed/other
 assemblages with similar forms have soft hammers'
 
 \hypertarget{indirect-percussion}{%
 \subsection{Indirect percussion}\label{indirect-percussion}}
 
-\textbf{Short Description} Use of a punch to remove flakes
+\textbf{Short Description:} Use of a punch to remove flakes
 
-\textbf{Definition} Use of a punch of any given material placed on a
+\textbf{Definition:} Use of a punch of any given material placed on a
 platform, and struck with a hammer to punch flakes from the core.
 
-\textbf{Inclusion criteria} Authors explicitly state that indirect
+\textbf{Inclusion criteria:} Authors explicitly state that indirect
 percussion was likely used.
 
-\textbf{Exclusion criteria} No mention of indirect percussion,
+\textbf{Exclusion criteria:} No mention of indirect percussion,
 statements like ``indirect percussion is one method that could produce
 the forms here''.
 
-\textbf{Typical exemplars} `The blades in this assemblages would have
+\textbf{Typical exemplars:} `The blades in this assemblages would have
 likely required indirect percussion', `experimental reconstructions of
 the stitching pattern on these Danish daggers indicate that indirect
 percussion/use of a punch would have been required'
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} `Indirect percussion could have been employed'
+\textbf{Close but no:} `Indirect percussion could have been employed'
 
 \hypertarget{flaking-with-application-of-pressure}{%
 \subsection{Flaking with application of
 pressure}\label{flaking-with-application-of-pressure}}
 
-\textbf{Short Description} Removal of flakes through application of
+\textbf{Short Description:} Removal of flakes through application of
 pressure on core platform
 
-\textbf{Definition} Use of typically soft indentor, bone, metal, or hard
-wood, to press flakes off cores.
+\textbf{Definition:} Use of typically soft indentor, bone, metal, or
+hard wood, to press flakes off cores.
 
-\textbf{Inclusion criteria} Discussion of pressure flaking as means of
+\textbf{Inclusion criteria:} Discussion of pressure flaking as means of
 producing flakes.
 
-\textbf{Exclusion criteria} no evidence of scars consistent in pressure
+\textbf{Exclusion criteria:} no evidence of scars consistent in pressure
 flaking AND no discussion of pressure flaking in the text.
 
-\textbf{Typical exemplars} `Microblades were struck through application
+\textbf{Typical exemplars:} `Microblades were struck through application
 of pressure'
 
-\textbf{Atypical exemplars}
+\textbf{Atypical exemplars:}
 
-\textbf{Close but no} `Other assemblages with similar forms have
+\textbf{Close but no:} `Other assemblages with similar forms have
 pressure flakers'
 
 \hypertarget{peckinghammer-dressing}{%
 \subsection{Pecking/hammer dressing}\label{peckinghammer-dressing}}
 
-\textbf{Short Description} Modification of core or tool through pecking
+\textbf{Short Description:} Modification of core or tool through pecking
 
-\textbf{Definition} NA
+\textbf{Definition:} NA
 
-\textbf{Inclusion criteria} Hammer dressing, or pecking described in
+\textbf{Inclusion criteria:} Hammer dressing, or pecking described in
 text as method employed at any point in tool manufacture. Hammer
 dressing is unambiguously present in illustrations.
 
-\textbf{Exclusion criteria} No hammer dressing or pecking described in
+\textbf{Exclusion criteria:} No hammer dressing or pecking described in
 text. Illustrations show no unambiguous presence of hammer dressing.
 
-\textbf{Typical exemplars} Figure 13.
+\textbf{Typical exemplars:} Figure 13.
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{invasive-flaking}{%
 \subsection{Invasive flaking}\label{invasive-flaking}}
 
-\textbf{Short Description} Removal of non-cortical flakes that extend
+\textbf{Short Description:} Removal of non-cortical flakes that extend
 beyond the midpoint of the core face
 
-\textbf{Definition} NA
+\textbf{Definition:} NA
 
-\textbf{Inclusion criteria} Examples of invasive negative flake scars
+\textbf{Inclusion criteria:} Examples of invasive negative flake scars
 present in core illustrations.
 
-\textbf{Exclusion criteria} No illustrations of invasive negative flake
+\textbf{Exclusion criteria:} No illustrations of invasive negative flake
 scars on cores, no description of flakes invasive to the degree that
 they extend beyond midline. Invasive flakes are cortical.
 
-\textbf{Typical exemplars}
+\textbf{Typical exemplars:}
 
-\textbf{Atypical exemplars}
+\textbf{Atypical exemplars:}
 
-\textbf{Close but no} Invasive flaking described only in text, but
+\textbf{Close but no:} Invasive flaking described only in text, but
 without further information about how invasive the flake are.
 
 \hypertarget{ochre-use}{%
 \subsection{Ochre use}\label{ochre-use}}
 
-\textbf{Short Description} Use of ochre in any stage of tool making
+\textbf{Short Description:} Use of ochre in any stage of tool making
 
-\textbf{Definition}Use of ochre as a pigment or as a binding agent.
+\textbf{Definition:}Use of ochre as a pigment or as a binding agent.
 
-\textbf{Inclusion criteria} Ochre applied to tool.
+\textbf{Inclusion criteria:} Ochre applied to tool.
 
-\textbf{Exclusion criteria} No mention of ochre in text, and
+\textbf{Exclusion criteria:} No mention of ochre in text, and
 
-\textbf{Typical exemplars} `Ochre was applied to points', `the adhesive
+\textbf{Typical exemplars:} `Ochre was applied to points', `the adhesive
 residues include ochre'
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{asphalt-use}{%
 \subsection{Asphalt use}\label{asphalt-use}}
 
-\textbf{Short Description} Use of aslphalt at any stage of the tool
+\textbf{Short Description:} Use of aslphalt at any stage of the tool
 making process.
 
-\textbf{Definition} Use of asphalt as a binding agent
+\textbf{Definition:} Use of asphalt as a binding agent
 
-\textbf{Inclusion criteria} Asphalt adhered to tool, typically at its
+\textbf{Inclusion criteria:} Asphalt adhered to tool, typically at its
 base/tang.
 
-\textbf{Exclusion criteria} No mention of asphalt residue on tools in
+\textbf{Exclusion criteria:} No mention of asphalt residue on tools in
 the text.
 
-\textbf{Typical exemplars} `asphalt was applied to points', `the
+\textbf{Typical exemplars:} `asphalt was applied to points', `the
 adhesive residues include asphalt'
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{tanging}{%
 \subsection{Tanging}\label{tanging}}
 
-\textbf{Short Description} Retouching base of piece to form a tang
+\textbf{Short Description:} Retouching base of piece to form a tang
 
-\textbf{Definition} Retouching a piece, typically through backing and
+\textbf{Definition:} Retouching a piece, typically through backing and
 notching at the base of a piece in order to facilitate hafting the
 piece.
 
-\textbf{Inclusion criteria} Description of retouch as forming a tang for
-the purpose of hafting.
+\textbf{Inclusion criteria:} Description of retouch as forming a tang
+for the purpose of hafting.
 
-\textbf{Exclusion criteria} No mention of tanging, or hafting. Pieces
+\textbf{Exclusion criteria:} No mention of tanging, or hafting. Pieces
 bearing notches are not described as hafted.
 
-\textbf{Typical exemplars} NA
+\textbf{Typical exemplars:} NA
 
-\textbf{Atypical exemplars} No mention of tanging, but pieces with basal
-modifications consistent with a tang are described as frequent or have
-many illustrations.
+\textbf{Atypical exemplars:} No mention of tanging, but pieces with
+basal modifications consistent with a tang are described as frequent or
+have many illustrations.
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{invasive-retouch}{%
 \subsection{Invasive retouch}\label{invasive-retouch}}
 
-\textbf{Short Description} retouch that extends to the midline of the
+\textbf{Short Description:} retouch that extends to the midline of the
 artifact.
 
-\textbf{Definition} NA
+\textbf{Definition:} NA
 
-\textbf{Inclusion criteria} Illustrations of retouched pieces showing
+\textbf{Inclusion criteria:} Illustrations of retouched pieces showing
 retouch extending to midline of tool.
 
-\textbf{Exclusion criteria} No illustrations of retouched pieces.
+\textbf{Exclusion criteria:} No illustrations of retouched pieces.
 
-\textbf{Typical exemplars}
+\textbf{Typical exemplars:}
 
-\textbf{Atypical exemplars} Burin spalls that extend to the midline of
+\textbf{Atypical exemplars:} Burin spalls that extend to the midline of
 the artifact. Tranchet spalls.
 
-\textbf{Close but no} Retouch described as invasive, but retouch scars
+\textbf{Close but no:} Retouch described as invasive, but retouch scars
 in illustrations extend short of the midline of the artifact.
 
 \hypertarget{retouch-unifacial}{%
 \subsection{Retouch (unifacial)}\label{retouch-unifacial}}
 
-\textbf{Short Description} Retouch of flake (unifacial only)
+\textbf{Short Description:} Retouch of flake (unifacial only)
 
-\textbf{Definition}
+\textbf{Definition:}
 
-\textbf{Inclusion criteria} Retouch described as present. Illustrations
+\textbf{Inclusion criteria:} Retouch described as present. Illustrations
 of pieces show unambiguous evidence of retouch.
 
-\textbf{Exclusion criteria} Bifacial retouch is present. No unambiguous
+\textbf{Exclusion criteria:} Bifacial retouch is present. No unambiguous
 illustrations of unifacially retouched pieces, and no mention of
 retouch.
 
-\textbf{Typical exemplars} NA
+\textbf{Typical exemplars:} NA
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
 \hypertarget{backing}{%
 \subsection{Backing}\label{backing}}
 
-\textbf{Short Description} Retouch forms an abrupt, scraper-like margin
+\textbf{Short Description:} Retouch forms an abrupt, scraper-like margin
 
-\textbf{Definition} Retouch that increases the angle of the margin to
+\textbf{Definition:} Retouch that increases the angle of the margin to
 \textasciitilde70-90 degrees.
 
-\textbf{Inclusion criteria} Presence of artifacts with retouch that
+\textbf{Inclusion criteria:} Presence of artifacts with retouch that
 forms an angle greater than 70 degrees. Description of scrapers in
 assemblage.
 
-\textbf{Exclusion criteria} Lack of evidence for artifacts with retouch
+\textbf{Exclusion criteria:} Lack of evidence for artifacts with retouch
 forming greater than 70 degree angle. Or evidence is ambiguous. No
 mention of scrapers, or illustrations of retouched tools.
 
-\textbf{Typical exemplars}
+\textbf{Typical exemplars:}
 
-\textbf{Atypical exemplars}
+\textbf{Atypical exemplars:}
 
-\textbf{Close but no} Abrupt retouch on flat thin flakes.
+\textbf{Close but no:} Abrupt retouch on flat thin flakes.
 
 \hypertarget{notching}{%
 \subsection{Notching}\label{notching}}
 
-\textbf{Short Description} Retouch forms round concavity.
+\textbf{Short Description:} Retouch forms round concavity.
 
-\textbf{Definition} Retouch, either unifacial or bifacial, forms a round
-concavity, or series of concavities.
+\textbf{Definition:} Retouch, either unifacial or bifacial, forms a
+round concavity, or series of concavities.
 
-\textbf{Inclusion criteria} Description of notches, or denticulates.
+\textbf{Inclusion criteria:} Description of notches, or denticulates.
 Illustration of pieces with notches formed.
 
-\textbf{Exclusion criteria} Lack of evidence for artifacts with retouch
+\textbf{Exclusion criteria:} Lack of evidence for artifacts with retouch
 forming greater than 70 degree angle. Or evidence is ambiguous. No
 mention of scrapers, or illustrations of retouched tools.
 
-\textbf{Typical exemplars} Figure 14. Piece 1. Figure 15. Pieces E, F.
+\textbf{Typical exemplars:} Figure 14. Piece 1. Figure 15. Pieces E, F.
 
-\textbf{Atypical exemplars}
+\textbf{Atypical exemplars:}
 
-\textbf{Close but no} Abrupt retouch on flat thin flakes.
+\textbf{Close but no:} Abrupt retouch on flat thin flakes.
 
 \hypertarget{burination}{%
 \subsection{Burination}\label{burination}}
 
-\textbf{Short Description} Removal of spalls along the margins of other
+\textbf{Short Description:} Removal of spalls along the margins of other
 flakes.
 
-\textbf{Definition} Removal of flakes where the core face is the sharp
+\textbf{Definition:} Removal of flakes where the core face is the sharp
 margin of the flake. Flakes from this process have two ventral surfaces,
 the parent flake's, and its own.
 
-\textbf{Inclusion criteria} Illustrations of flakes with evidence of
+\textbf{Inclusion criteria:} Illustrations of flakes with evidence of
 spalls taking across their lateral, proximal, or distal margins. Burins,
 or burin spalls described as present.
 
-\textbf{Exclusion criteria} No description of burins, burin spalls, or
+\textbf{Exclusion criteria:} No description of burins, burin spalls, or
 microburin technique, and no illustrations showing burins as described
 above. Do not count if the burination could be coded as tranchet
 resharpening
 
-\textbf{Typical exemplars} Figure 16. from Smith et al.~2016. all
+\textbf{Typical exemplars:} Figure 16. from Smith et al.~2016. all
 examples.
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} Mention of `impact burnation', `spalling',
+\textbf{Close but no:} Mention of `impact burnation', `spalling',
 `core-on-flake'.
 
 \hypertarget{tranchet-removal.}{%
 \subsection{Tranchet removal.}\label{tranchet-removal.}}
 
-\textbf{Short Description} Retouch of a core-tool by removing a flake
+\textbf{Short Description:} Retouch of a core-tool by removing a flake
 across the face at the distal margin or bit.
 
-\textbf{Definition} Retouch of a core-tool by removing a flake across
+\textbf{Definition:} Retouch of a core-tool by removing a flake across
 the face at the distal margin or bit. The spall removed in this process
 is typically curved, and may be trihedral in a way similar to a burin
 spall. One lateral margin of the spall will be the distal margin/bit of
 the core-tool. The opposite face of the core tool will have a remnant on
 one face of the spall, adjacent to the ventral surface of the spall.
 
-\textbf{Inclusion criteria} Description of tranchet resharpening in
+\textbf{Inclusion criteria:} Description of tranchet resharpening in
 text. illustration of core-tools with negative from tranchet spall
 visible. Illustration of tranchet spalls themselves with further
 description that these represent tranchet spalls.
 
-\textbf{Exclusion criteria} Do not count if there is no evidence in
+\textbf{Exclusion criteria:} Do not count if there is no evidence in
 illustrations for tranchet resharpened core tools, and there is no
 mention of tranchet spall in text, or otherwise no mention of
 resharpening of bit through removal of transverse flake.
 
-\textbf{Typical exemplars} Figure 17. Pieces 1-3.
+\textbf{Typical exemplars:} Figure 17. Pieces 1-3.
 
-\textbf{Atypical exemplars} Illustrations of core-tools with unambiguous
-examples of tranchet resharpening, but no description of this method of
-resharpening in text.
+\textbf{Atypical exemplars:} Illustrations of core-tools with
+unambiguous examples of tranchet resharpening, but no description of
+this method of resharpening in text.
 
-\textbf{Close but no} Illustrations of what appear to be tranchet
+\textbf{Close but no:} Illustrations of what appear to be tranchet
 spalls, in context of a site with core-tools that could reasonably have
 been resharpened with such spalls, but no description in the text that
 these spalls served that purpose.
@@ -1060,51 +1068,51 @@ these spalls served that purpose.
 \hypertarget{pressure-retouch}{%
 \subsection{Pressure retouch}\label{pressure-retouch}}
 
-\textbf{Short Description} Pressure flaking retouch
+\textbf{Short Description:} Pressure flaking retouch
 
-\textbf{Definition} Retouching a piece (core-tool or flake) with
+\textbf{Definition:} Retouching a piece (core-tool or flake) with
 application of pressure.
 
-\textbf{Inclusion criteria} Invasive flake scars on retouched pieces
+\textbf{Inclusion criteria:} Invasive flake scars on retouched pieces
 that are extremely narrow (\textasciitilde.5mm), thin (\textless.1mm,
 and relatively invasive (\textasciitilde5mm) OR description of pieces as
 pressure flaked.
 
-\textbf{Exclusion criteria} no evidence of scars consistent in pressure
+\textbf{Exclusion criteria:} no evidence of scars consistent in pressure
 flaking AND no discussion of pressure flaking in the text.
 
-\textbf{Typical exemplars} `There were x pressure flaked bifaces in the
+\textbf{Typical exemplars:} `There were x pressure flaked bifaces in the
 assemblage'
 
-\textbf{Atypical exemplars} `Burin spalls removed through pressure
+\textbf{Atypical exemplars:} `Burin spalls removed through pressure
 flaking', or `microblade manufacture on end nosed scraper were removed
 through pressure flaking.'
 
-\textbf{Close but no} `biface was thinned through invasive and delicate
+\textbf{Close but no:} `biface was thinned through invasive and delicate
 removals', `delicate burin spalls removed'.
 
 \hypertarget{bifacial-retouch}{%
 \subsection{Bifacial retouch}\label{bifacial-retouch}}
 
-\textbf{Short Description} Retouch on both faces of a flake or
+\textbf{Short Description:} Retouch on both faces of a flake or
 core-tool.
 
-Definition** Retouch on both faces of a flake or core-tool, struck from
-the same platform.
+\textbf{Definition:} Retouch on both faces of a flake or core-tool,
+struck from the same platform.
 
-\textbf{Inclusion criteria} Descriptions of bifacial retouch,
+\textbf{Inclusion criteria:} Descriptions of bifacial retouch,
 illustrations of pieces with retouch on both faces.
 
-\textbf{Exclusion criteria} No mention of bifacial retouch, no
+\textbf{Exclusion criteria:} No mention of bifacial retouch, no
 illustrations of retouched pieces showing bifacial retouch.
 
-\textbf{Typical exemplars} NA
+\textbf{Typical exemplars:} NA
 
-\textbf{Atypical exemplars} NA
+\textbf{Atypical exemplars:} NA
 
-\textbf{Close but no} NA
+\textbf{Close but no:} NA
 
-\textbf{Other notes} Never count both bifacial and unifacial retouch on
+\textbf{Other notes:} Never count both bifacial and unifacial retouch on
 same piece.
 
 \hypertarget{figures}{%
