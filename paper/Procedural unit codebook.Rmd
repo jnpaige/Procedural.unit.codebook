@@ -383,7 +383,7 @@ No argument for presence. No Hierarchical preferential cores. No overshot blades
 
 **Typical exemplars:** If flakes are produced in assemblage,but there is no discussion about the kind of hammer/percussion technique used, count as present.
 
-**Atypical exemplars:**  Examples of technologies where there is only percussion, with no production of flakes (e.g. nutcracking). Explicit description of hard hammer percussion as method of flaking.
+**Atypical exemplars:**  Examples of technologies where there is only percussion, with no production of flakes (e.g. nutcracking). Explicit description of hard hammer percussion as method of flaking. Hammer dressing/pecking as a method of shaping tools.
 
 **Close but no:**  Flakes produced, but only percussion techniques described do not include use of hard hammer. For example: later blade production techniques which likely involved hard hammer percussion in early stages of core preparation, but where only the later stages of blank production are represented and these are described as involving soft hammer/indirect percussion/pressure flaking.
 
@@ -394,30 +394,36 @@ No argument for presence. No Hierarchical preferential cores. No overshot blades
 
 **Definition:**  NA
 
-**Inclusion criteria:**  Count as present if bipolar percussion is not described as present, if description of freehand percussion in text. 
+**Inclusion criteria:**  Flakes produced OR any hard hammer,soft hammer,or indirect percussion present. 
 
-**Exclusion criteria:** Explicit statement in text saying only bipolar, or passive anvil technique was employed, or description only of flake removals while core was mechanically mounted, or otherwise not supported by hand.
+**Exclusion criteria:**  Bipolar percussion is main mode of flaking OR passive hammer is main mode of flaking OR cores described as primarily mechanically mounted. 
 
-**Typical exemplars:** NA
+**Typical exemplars:** "Nodules were reduced through freehand percussion". 
 
-**Atypical exemplars:** NA
+**Atypical exemplars:** "Early stage reduction likely included soft hammer percussion and hard hammer percussion to shape core prior to it being reduced through bipolar percussion", "Nodules were bifacially flaked to produce a crest, prior to being mounted in a substrate where flaking was then performed through application of pressure". 
 
-**Close but no:**  NA
+**Close but no:**  Passive hammer percussion resulting in flakes.
 
 
-## Use of anvil to support core
+## Use of anvil
 
-**Short Description:** Any incorporation of an anvil in the reduction process. 
+**Short Description:** Any incorporation of an anvil, or hard substrate, in the reduction process. 
 
-**Definition:** Use of an anvil at any point in the tool reduction sequence. 
+**Definition:** Use of an anvil or hard substrate at any point in the tool reduction sequence. 
 
-**Inclusion criteria:** Any discussion of anvil use, all cases of bipolar percussion, except where bipolar refers to flake removals from two opposing platforms where an anvil is not used (i.e. a bidirectional core without bipolar percussion). Cases where bipolar is mentioned must also have some visual evidence for bipolar percussion with an anvil (in the form of scaled pieces, for example).
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:** Bipolar percussion not mentioned in text. No mention of use of anvil to support core in any way.
+**Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Typical exemplars:** “…many of our early replications were performed with the aid of an anvil (Figure 5), and this was found to be a successful technique for creating the initial steep sides on large flakes and cobbles. Anvil resting was more successful than true bipolar flaking in generating steep-angled edges and moving flaking on to new edges” (Clarkson et al., 2015** p.74)
+**Typical exemplars:** 
+Any discussion of anvil use, including bipolar percussion.
 
-**Atypical exemplars:** NA
+**Atypical exemplars:** Descriptions or illustrations of anvil resting: *“…many of our early replications were performed with the aid of an anvil (Figure 5), and this was found to be a successful technique for creating the initial steep sides on large flakes and cobbles. Anvil resting was more successful than true bipolar flaking in generating steep-angled edges and moving flaking on to new edges”* (Clarkson et al., 2015 p.74)
+
+Presence of *pièces esquillées* or other kinds of scaled pieces described as resulting from smashing a flake against a hard substrate.
+
+**Close but no:** 
+Cases where bipolar is mentioned briefly, but where there is a possiblity that it refers to bidirectional flaking. In such cases, there must also be some visual evidence for bipolar percussion with an anvil (in the form of scaled pieces, for example).
 
 
 ## Core rotation
