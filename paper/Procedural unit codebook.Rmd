@@ -430,15 +430,15 @@ Cases where bipolar is mentioned briefly, but where there is a possiblity that i
 
 **Definition:** Core rotated at any point in reduction sequence
 
-**Inclusion criteria:** Any evidence of flakes removed across two or more distinct axes. 
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:** Single platform cores are present without evidence of removals across the top of the core. 
+**Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Typical exemplars:** NA
+**Typical exemplars:** Figures showing cores with flake removals across two different axes. Bifacial flaking of any kind. 
 
 **Atypical exemplars:** NA
 
-**Close but no:** NA
+**Close but no:** Single platform cores are present without evidence of removals across the top of the core. 
 
 
 ## Soft Hammer
@@ -447,15 +447,18 @@ Cases where bipolar is mentioned briefly, but where there is a possiblity that i
 
 **Definition:** use of a soft hammer (whether the material be wood, bone, soft stone, etc). 
 
-**Inclusion criteria:** Authors explicitly state that soft hammer percussion was likely used OR soft hammers present in the archaeological assemblage, and forms of pieces appear consistent with use of soft hammers. For example, if delicate, thin, wide flakes present and soft-hammers were recovered from related contexts. 
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:** No mention of soft hammer use, no soft-hammers present in the assemblage.  Evidence for soft hammer use described as unclear. 
 
-**Typical exemplars:** ‘Soft hammer use likely occurred’
+**Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Atypical exemplars:** ‘Soft hammers are necessary for producing these forms, also see Figure x. for soft hammers recovered from the archaeological record’
 
-**Close but no:**  ‘Soft hammer use could have been employed/other assemblages with similar forms have soft hammers’
+**Typical exemplars:** Authors explicitly state that soft hammer percussion was likely performed, soft hammers present in the archaeological assemblage and flakes present consistent with use of soft hammers. For example, if delicate, thin, wide flakes are present and soft-hammers were recovered from related contexts. 
+
+**Atypical exemplars:** Examples where indirect percussion, soft hammer, and pressure flaking are all reported as possibilities, but soft hammer percussion is reported as most likely. 
+
+**Close but no:**  Soft hammer use not specified, thinned bifaces appear consistent with soft-hammer percussion but no description in text. Flakes with lipped platforms present, but no discussion about soft-hammer percussion.
+Statements like “soft hammer percussion is one method that could produce the forms here”, without noting that it is the most likely method.
 
 
 ## Indirect percussion
@@ -464,32 +467,32 @@ Cases where bipolar is mentioned briefly, but where there is a possiblity that i
 
 **Definition:** Use of a punch of any given material placed on a platform, and struck with a hammer to punch flakes from the core. 
 
-**Inclusion criteria:** Authors explicitly state that indirect percussion was likely used.
+**Inclusion criteria:** Described in text 
 
-**Exclusion criteria:** No mention of indirect percussion, statements like “indirect percussion is one method that could produce the forms here”.
+**Exclusion criteria:** Not described in text. 
 
-**Typical exemplars:** ‘The blades in this assemblages would have likely required indirect percussion’, ‘experimental reconstructions of the stitching pattern on these Danish daggers indicate that indirect percussion/use of a punch would have been required’
+**Typical exemplars:** ‘The blades in this assemblages would have likely required indirect percussion’, ‘experimental reconstructions of the stitching pattern on these Danish daggers indicate that indirect percussion/use of a punch would have been required’. Examples where indirect percussion, soft hammer, and pressure flaking are all reported as possibilities, but indirect percussion is reported as most likely. 
 
 **Atypical exemplars:** NA
 
-**Close but no:**  ‘Indirect percussion could have been employed’
+**Close but no:**  ‘Indirect percussion could have been employed’, figures showing evidence of stitching patterns, or flaking patterns that exploit pronounced negative bulbs of percussion as platforms that appear difficult to achieve without indirect percussion, but could potentially have been produced through pressure flaking. Statements like “indirect percussion is one method that could produce the forms here”, without noting that it is the most likely method.
 
 
 ## Flaking with application of pressure
 
-**Short Description:** Removal of flakes through application of pressure on core platform
+**Short Description:** Removal of flakes through application of pressure on core platform, or on a retouched tool edge.
 
-**Definition:** Use of typically soft indentor, bone, metal, or hard wood, to press flakes off cores.
+**Definition:** Use of typically soft indentor, bone, metal, or hard wood,to press off flakes, or burin spalls.
 
-**Inclusion criteria:** Discussion of pressure flaking as means of producing flakes.
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:** no evidence of scars consistent in pressure flaking AND no discussion of pressure flaking in the text. 
+**Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Typical exemplars:** ‘Microblades were struck through application of pressure’
+**Typical exemplars:** Illustrations of pressure flaked bifaces, or of retouch through pressure flaking. These show invasive flake scars on retouched pieces that are extremely narrow (~.5mm), thin (<.1mm, and relatively invasive (~5mm).  
 
-**Atypical exemplars:** 
+**Atypical exemplars:** ‘Microblades were struck through application of pressure’, 'burin spalls were likely removed through pressure flaking". Examples where indirect percussion, soft hammer, and pressure flaking are all reported as possibilities, but pressure flaking is reported as most likely. 
 
-**Close but no:**  ‘Other assemblages with similar forms have pressure flakers’
+**Close but no:**  Delicate retouched tools without strong evidence of pressure flaking retouch. Descriptions of delicate blade manufacture, but no clear statement indicating that pressure flaking was the likely method of core reduction. Statements like “pressure flaking is one method that could produce the forms here”, without noting that it is the most likely method.
 
 
 ## Pecking/hammer dressing
@@ -498,15 +501,15 @@ Cases where bipolar is mentioned briefly, but where there is a possiblity that i
 
 **Definition:** NA
 
-**Inclusion criteria:** Hammer dressing, or pecking described in text as method employed at any point in tool manufacture. Hammer dressing is unambiguously present in illustrations. 
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:** No hammer dressing or pecking described in text. Illustrations show no unambiguous presence of hammer dressing. 
+**Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Typical exemplars:** Figure 13. 
+**Typical exemplars:** Figure 13. Hammer dressing, or pecking described in text as method employed at any point in tool manufacture. Hammer dressing is unambiguously present in illustrations. 
 
 **Atypical exemplars:** NA
 
-**Close but no:**  NA
+**Close but no:** Artifacts appear pecked in figures but this could be consistent with either use, or post-depositional processes and there is no clarification in text.
 
 
 ## Invasive flaking
@@ -684,21 +687,7 @@ above. Do not count if the burination could be coded as tranchet resharpening
 **Close but no:**  Illustrations of what appear to be tranchet spalls, in context of a site with core-tools that could reasonably have been resharpened with such spalls, but no description in the text that these spalls served that purpose. 
 
 
-## Pressure retouch
 
-**Short Description:** Pressure flaking retouch
-
-**Definition:** Retouching a piece (core-tool or flake) with application of pressure. 
-
-**Inclusion criteria:** Invasive flake scars on retouched pieces that are extremely narrow (~.5mm), thin (<.1mm, and relatively invasive (~5mm) OR description of pieces as pressure flaked. 
-
-**Exclusion criteria:** no evidence of scars consistent in pressure flaking AND no discussion of pressure flaking in the text. 
-
-**Typical exemplars:** ‘There were x pressure flaked bifaces in the assemblage’
-
-**Atypical exemplars:** ‘Burin spalls removed through pressure flaking’, or ‘microblade manufacture on end nosed scraper were removed through pressure flaking.’
-
-**Close but no:**  ‘biface was thinned through invasive and delicate removals’, ‘delicate burin spalls removed’. 
 
 
 ## Bifacial retouch
