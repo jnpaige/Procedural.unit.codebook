@@ -342,15 +342,16 @@ No argument for presence. No Hierarchical preferential cores. No overshot blades
 
 **Definition:** Core was abraded/ground to strengthen platform, or tools were abraded or ground as part of production sequence. 
 
-**Inclusion criteria:** any discussion of the abrasion, rubbing, of the core platform in relation to platform preparation in the text, or the presence of grinding/abrasion to finish a tool.
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:** No explicit description of abrasion as the strategy used to prepare the platform. Platform preparation described, but the kind of preparation not explicitly described. Tools appear ground/abraded but no discussion of the technique in text. 
+**Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Typical exemplars:**  ‘platforms were prepared by abrasion.’
+**Typical exemplars:**  Any discussion of the abrasion of the core platform in relation to platform preparation in the text, or the presence of grinding/abrasion to finish a tool. For example: ‘platforms were prepared by abrasion.’. Figures showing evidence of abrasion, or polishing of platforms or of edges. Presence of polished adzes, and groundstone tools that are not formed only through pecking.
 
 **Atypical exemplars:** “These bifaces have several common attributes. All were primarily shaped by abrasion by rubbing with a coarse material, leaving parallel striae on their surface” (Rosenthal, 1996). 
 
-**Close but no:**  NA
+**Close but no:**  Platform preparation described, but the kind of preparation not explicitly described. Tools show suggestive, though ambigious evidence of being ground/abraded but no discussion of the technique in text. Presence of use polish (e.g. sickle polish). Figure 13. shows a hammer dressed/pecked tool, which may have been abraded too, but without additional info in text or in other figures do not call it present. 
+
 
 
 ## Overhang removal/microchipping of area below platform
@@ -359,32 +360,32 @@ No argument for presence. No Hierarchical preferential cores. No overshot blades
 
 **Definition:** Removal of chips initiated from platform to modify proximal margin of core face/proximal convexities, and modify the platform angle. 
 
-**Inclusion criteria:** Illustrations show small flakes removed at proximal margin of flakes, or on areas below core platforms. Descriptions of overhang removal, or microchipping of platform in text. 
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:**  No evidence of microchipping, overhang removal described in text, or in illustrations. Microchipping described in text, but this refers to what we would otherwise code as faceting. 
+**Exclusion criteria:**  Not described in text AND not shown in figures.
 
-**Typical exemplars:** NA
+**Typical exemplars:** Illustrations show small flakes removed at proximal margin of flakes, or on areas below core platforms. Descriptions of overhang removal, or microchipping of platform in text. 
 
 **Atypical exemplars:** NA 
 
-**Close but no:**  NA
+**Close but no:**  Similar practices described in text, but this refers to what we would otherwise code as faceting. 
 
 
 ## Percussion by striking with hard hammer
 
 **Short Description:** Use of a hard hammer
 
-**Definition:**  Use of a hard hammer strike onto some substrate, whether it is a core, held in the had, mounted on an anvil, or whether the hammer itself was struck on an anvil (as in case of passive hammer technique)
+**Definition:**  Use of a hard hammer strike onto some substrate, whether it is a core, held in the hand, mounted on an anvil, or whether the core itself was struck on a hard substrate (as in case of passive hammer technique). Flakes need not to have been produced. 
 
-**Inclusion criteria:**  If flakes are produced in assemblage, count as present unless explicitly stated as absent
+**Inclusion criteria:**  Flakes produced OR hard hammers present.
 
-**Exclusion criteria:** Explicit statement in text saying hard hammer use was absent
+**Exclusion criteria:** (No flakes produced AND no hard hammers present) OR described as absent. 
 
-**Typical exemplars:** NA
+**Typical exemplars:** If flakes are produced in assemblage,but there is no discussion about the kind of hammer/percussion technique used, count as present.
 
-**Atypical exemplars:** NA
+**Atypical exemplars:**  Examples of technologies where there is only percussion, with no production of flakes (e.g. nutcracking). Explicit description of hard hammer percussion as method of flaking.
 
-**Close but no:**  NA
+**Close but no:**  Flakes produced, but only percussion techniques described do not include use of hard hammer. For example: later blade production techniques which likely involved hard hammer percussion in early stages of core preparation, but where only the later stages of blank production are represented and these are described as involving soft hammer/indirect percussion/pressure flaking.
 
 
 ## Core supported by hand
