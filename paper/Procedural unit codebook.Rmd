@@ -223,9 +223,9 @@ Do not count if: lateral flakes were struck only during radial/centripetal prepa
 
 **Exclusion criteria:** Absence of hierarchical core reduction. Not described in text AND not shown in figures.
 
-**Typical exemplars:** Figure 5, Levallois cores numbers 5, 6., Figure 6, Levallois core with lateral trimming, number 4. Figure 7. Step 4 in blademaking sequence. Descriptions of shaping of distal convexities of the face, through removals from the distal margin of the core. 
+**Typical exemplars:** Figure 5, Levallois cores numbers 5, 6., Figure 6, Levallois core with lateral trimming, number 4. Figure 7. Step 4 in blademaking sequence. Descriptions of shaping of distal convexities of the face through removals from the distal margin of the core. 
 
-**Atypical exemplars:** Figure 8. Step 3 in Chazan’s description of La Ferrassie bladelets. Notching a bladelet, to supply end point of microblades taken from lateral margin of that bladelet core. Any flaking at a distal platform that is argued to control length of flaking surface or to shape the distal end of the blank.
+**Atypical exemplars:** Figure 8. Step 3 in Chazan’s description of La Ferrassie bladelets. Notching a bladelet, to supply end point of microblades taken from lateral margin of that bladelet core. Figure 10, numbers 4 and 7. Any flaking at a distal platform that is argued to control length of flaking surface or to shape the distal end of the blank. 
 
 **Close but no:** Do not count if: the core could be reasonably characterized as centripetally prepared, or if these are flakes initiated from the distal margin that trim the lateral convexities of a core, like what we might find in a Nubian Levallois core (these should be coded as *débordante*). 
 
@@ -234,7 +234,7 @@ Do not count if: lateral flakes were struck only during radial/centripetal prepa
 
 **Short Description:** Back of the core is shaped.
 
-**Definition:** Back of core is shaped, as is case among naviform cores, and Asian microblade cores. All examples so far identified are cases where a nodule was bifacially flaked. One of the flaked crests then is used to remove one or two crested blades to establish a platform and face. Then flakes are removed from that platfom until exhausted. When exhausted there remains evidence of original bifacial flaking at the back of the core. 
+**Definition:** Back of core is shaped, as is case among naviform cores, and often among microblade cores. All examples so far identified are cases where a nodule was bifacially flaked. One of the flaked crests then is used to remove one or two crested blades to establish a platform and face. Then flakes are removed from that platfom until exhausted. When exhausted there remains evidence of original bifacial flaking at the back of the core. 
 
 **Inclusion criteria:** Shown in figures. 
 
@@ -261,23 +261,26 @@ Do not count if: lateral flakes were struck only during radial/centripetal prepa
 
 **Atypical exemplars:** The below examples are enough to count cresting as present: *“The rarity of crested blades (0.3%, Table 7) and the presence of blades with centripetal flake dorsal scars on one side only (4.2%, Fig. 9e,h) are most consistent with a reduction strategy that generally prepared the blade exploitation surface with centripetal flake removals”* (Wilkins & Chazan, 2012 p. 10). *“Crested elements (n=26) provide some details of the methods used for initial core preparation. The relatively low number of these pieces compared to the high number of cores used to produce blade/bladelet suggests that, in general, cresting was not necessary, and the natural shape of cobbles/nodules allowed the production of elongated debitage without cresting.”* (Smith et al., 2016).
 
-**Close but no:** Flakes with laterally oriented dorsal scars. Partially crested blades, where no element of the platform of the crest is present. Ski spall flakes removed during reduction of naviform cores which were prepared through cresting. Flakes with unifacial cresting, either complete or partial as in the case of striking platform removals as described in Smith et al. 2016, which were not argued to play a role in initial core shaping.
+**Close but no:** Flakes with laterally oriented dorsal scars. Partially crested blades, where no element of the platform of the crest is present. Ski spall flakes removed during reduction of naviform cores which were prepared through cresting. Flakes with unifacial cresting, either complete or partial as in the case of striking platform removals as described in Smith et al. 2016, which were not argued to play a role in initial core shaping. Example 3 in Figure 10.
 
 
 ## *Débordante* 
 
 **Short Description:** Shaping of core face through knapping elongated flakes along lateral margins of core face, across the axis of the main flaking surface.  
+**Definition:** Elongated flakes modify the lateral convexities of a core face, knapped along the axis of the main flaking surface. Débordante flakes/blades only include materials that maintain lateral and distal and sometimes proximal convexities of a core face. These can be removed either from the proximal/main core platform (more common), or distal area of the core (see atypical exemplars below). These tend to have a wedge shaped cross section. In near eastern traditions these are sometimes refered to as naturally backed blades or knives (Shimelmitz et al., 2011; Smith et al., 2016) though these sometimes might refer to elements that are not from hierarchical preferential cores, that happen to have a wedge shaped cross section. 
 
-**Definition:** Elongated flakes modify the lateral convexities of a core face, knapped along the axis of the main flaking surface. Débordante flakes/blades only include materials that maintain lateral and distal and sometimes proximal convexities of a core face. These can be removed either from the proximal/main core platform (more common), or distal area of the core (see atypical exemplars below). These tend to have a triangular cross section. In near eastern traditions these are sometimes refered to as naturally backed blades or knives (Shimelmitz et al., 2011; Smith et al., 2016) though these sometimes might refer to elements that are not from hierarchical preferential cores, that happen to have a wedge shaped cross section. 
+**Inclusion criteria:**  Requires hierarchical core reduction. Described in text OR shown in figures. 
 
-**Inclusion criteria:**  Must be in association with description/illustration of hierarchical preferential cores. If that condition is met, and the term debordante is used and likely is not referring to what we would otherwise code as lateral trimming, count as present. If backed flake/knife is used, only count as present if there is further discussion about the role they play in managing convexities of core face, OR if core faces show clear evidence of debordante removals in illustrations. If “debordante” is not used, but there are phrases like “elongated flakes were used to align the core face/modify lateral and distal convexities/modify core edges” count as present. 
+**Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Exclusion criteria:** Naturally backed flakes described as present, but there is no mention of their function in maintaining the face geometry of the core, or convexities of the core. Flakes are described as debordante, but there is otherwise no mention illustration or description of the nature of cores. Or, there is description of cores and they are non-hierarchical/amorphous. 
+**Typical exemplars:** 
 
-**Typical exemplars:** From Wilkins and Chazan** “Débordant flakes/blades with unidirectional or bidirectional dorsal scars and a preserved lateral platform surface are also present in the assemblage (n ¼ 13, 1.3%, Fig. 9a) and may have sometimes been used to rejuvenate core edges”(Wilkins & Chazan, 2012). Figure 5. Pieces 5, 6, and 9 in figure below.
+The term debordante is used and likely is not referring to what we would otherwise code as lateral trimming. 
 
-**Atypical exemplars:** Naturally backed blades described in Shimelmitz et al. 2011, which are argued to shape core face. If “debordante” is not used, but there are phrases like “elongated flakes were used to align the core face/modify lateral and distal convexities/modify core edges” count as present.  Pieces that are described as backed but in context of discussion about managing lateral convexities. For example** “Only one elongated flake could be attributed to the Taramsa reduction method. The presence of many backed pieces (N=10) confirms this trend, since these flakes are removed to maintain the strong lateral convexity of the core”(Spinapolice & Garcea, 2013). 
-Figure 5. Piece 8. 
+From Wilkins and Chazan** “*Débordante* flakes/blades with unidirectional or bidirectional dorsal scars and a preserved lateral platform surface are also present in the assemblage (n ¼ 13, 1.3%, Fig. 9a) and may have sometimes been used to rejuvenate core edges”(Wilkins & Chazan, 2012). Figure 5. Pieces 5, 6, and 9 in figure below.
+
+**Atypical exemplars:** If backed flake/knife is used, only count as present if there is further discussion about the role they play in managing convexities of core face, OR if core faces show clear evidence of *débordante* removals in illustrations. For example *“Only one elongated flake could be attributed to the Taramsa reduction method. The presence of many backed pieces (N=10) confirms this trend, since these flakes are removed to maintain the strong lateral convexity of the core”(Spinapolice & Garcea, 2013)*. If “debordante” is not used, but there are phrases like “elongated flakes were used to align the core face/modify lateral and distal convexities/modify core edges” count as present. 
+Figure 5. Piece 8.
 
 **Close but no:** Descriptions of *débordante* removals, but without further specifics about the orientation of trimming flakes either in text or in figures. Discussion of face shaping with flake removals or discussion of naturally backed blades/knives/flakes without mention of the role they served in maintaining face shape/convexity. 
 
@@ -286,33 +289,34 @@ Figure 5. Piece 8.
 
 **Short Description:** Elongated flake removals that clip or remove the distal margin of the core. 
 
-**Definition:** Medial and distal convexities of a core face on a preferential hierarchical core are modified with an invasive flake that removes the distal end of the core, which may bear a platform (often opposed to its own) on the distal margin. 
+**Definition:** Medial and distal convexities of a core face on a preferential hierarchical core are modified with an invasive flake that removes the distal end of the core, which may bear a platform (often opposed to its own) on the distal margin.
 
-**Inclusion criteria:** Flakes or blades that extend across the entire face of the core must be in association with hierarchical blade/bladelet/microblade cores, discussion must include discussion of overshot blades/flakes, and/or include illustrations of overshot flakes/blades. 
+**Inclusion criteria:** Requires hierarchical core reduction. Described in text OR shown in figures. 
 
-**Exclusion criteria:**  No argument for presence. No Hierarchical preferential cores. No overshot blades/flakes in illustrations. No discussion of overshot blade/flake role in modifying distal convexity/rejuvenating distal platform. 
+**Exclusion criteria:** Absence of hierarchical core reduction. Not described in text AND not shown in figures.
+No argument for presence. No Hierarchical preferential cores. No overshot blades/flakes in illustrations. No discussion of overshot blade/flake role in modifying distal convexity/rejuvenating distal platform. 
 
-**Typical exemplars:**  Shimelmitz et al. 2011** “The frequent removal of laminar items with an overpassing end termination along the reduction in order to control core convexities.”
+**Typical exemplars:**  Shimelmitz et al. 2011 *“The frequent removal of laminar items with an overpassing end termination along the reduction in order to control core convexities.”*
 
-**Atypical exemplars:** From Wilkins and Chazan. “Blades preserving a distal striking platform (Fig. 7d) further attest to the bidirectional production of blades.”. This phrase has enough information for us to code this as an overshot blade, but there is also supporting information in the figure showing overshot blades. 
+**Atypical exemplars:** From Wilkins and Chazan. *“Blades preserving a distal striking platform (Fig. 7d) further attest to the bidirectional production of blades.”*. This phrase has enough information for us to code this as an overshot blade used to manage distal convexities, but there is also supporting information in the figure showing overshot blades. 
 
-**Close but no:**  Blades that are thick at the distal end, but do not bear the distal end of the core. Flakes that have a distal end of core, but the distal end is cortex. Overshot flakes are present in an assemblage, but there is no evidence for hierarchical core reduction. 
+**Close but no:**  Morphological overshot pieces are present, but there is no discussed role in modifying distal convexity/rejuvenating a distal platform. This will most often be the case where there are overshot flakes taken from cores that do not have another platfrom at the distal end of the core face, or where the overshot flake on a single platform core does not remove stacking towards the distal end of the core face. Flakes that have a distal end of core, but the distal end is cortex.
 
 ## Kombewa
 
 **Short Description:** Removal of flake from ventral surface of a flake	
 
-**Definition:** Ventral surface of a flake is treated as a core face
+**Definition:** Ventral surface of a flake is treated as a core face, where the original flake platform is treated as the core platform.
 
-**Inclusion criteria:** Kombewa technique described as present, “janus flakes” and the processes to make them are described
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:** Discussion of removal of flakes from flakes is ambiguous about whether or not kombewa technique is present. No mention of janus flakes. 
+**Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Typical exemplars:** “cleavers were made on sometimes completely unmodified Kombewa flakes”
+**Typical exemplars:** Kombewa technique described as present, “Janus flakes” and the processes to make them are described. “Cleavers were made on sometimes completely unmodified Kombewa flakes”
 
-**Atypical exemplars:** 
+**Atypical exemplars:** NA
 
-**Close but no:**  Core on flake described as present without discussion of where the flaking surface is on that flake. Flakes from retouching large flakes, which be initiated at dorsal margin, and capture some of the ventral surface. Scars not propagated across ventral surface. Burin spalls, or tranchet spalls taken from flakes.
+**Close but no:**  Core on flake described as present without discussion of where the flaking surface is on that flake. Flakes from retouching large flakes, which are initiated at dorsal margin, and capture some of the ventral surface, but were not initiated from the original platform, and did not remove much of the ventral surface. Scars not propagated across ventral surface. Burin spalls, or *tranchet* spalls taken from flakes. 
 
 
 ## Core tablet removals
@@ -321,15 +325,15 @@ Figure 5. Piece 8.
 
 **Definition:** Striking a flake into the face of a core, where the dorsal surface of that flake is the main platform of a core. These are intended to rejuvinate the core platform by establishing a fresh flaking surface. 
 
-**Inclusion criteria:** Descriptions of core tablets, or illustrations of core tablets themselves and the function they served in rejuvenating core platforms, or illustrations of cores with strong evidence for core tablet removals. 
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:** Coding as present should not be based only on illustrations of pieces that look like tablets. It should also not normally be based on illustrations of cores that have a single scar as the platform without supporting evidence that that scar was made to rejuvenate the platfrom (see Atypical exemplars below). Do not code as present if only evidences are flakes that happen to remove platforms, but no other evidence for hierarchical cores, Flakes with large facetted proximal margins without any other information in the text about rejuvenation of platforms. 
+**Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Typical exemplars:** Figure 11. Cores a and d. Phrases like, ‘the assemblage has several core tablets’.
+**Typical exemplars:** Figure 11. Cores a and d. Descriptions of core tablets, or illustrations of core tablets themselves and text describing the function they served in rejuvenating core platforms, or illustrations of cores with strong evidence for core tablet removals. Phrases like,‘the assemblage has several core tablets’, or "core platforms were rejuvenated through striking core tablets".
 
-**Atypical exemplars:** Figure 11. Cores b and e. In Figure 12 we can see that a flake was taken across the top of the core (the negative bulb of the flake is present) and this flake erased the negative bulbs of several of the blade scars (the flake did not just establish a platform, but was taken after several blades had been struck. These lines of evidence on a single platform hierarchical core are sufficient to infer that these cores were rejuvenated with tablets. 
+**Atypical exemplars:** Figure 11. Cores b and e show evidence of flakes taken across the top of the core (the negative bulb of the flake is present) and this flake erased the negative bulbs of several of the blade scars (the flake did not just establish a platform, but was taken after several blades had been struck). These lines of evidence on a single platform hierarchical core are sufficient to infer that these cores were rejuvenated with tablets. Figure 12. Pieces 1-4 show insufficient evidence to call them core tablets, but the presence of additional text describing their role in rejuvenating platforms gives us enough infromation to call them core tablets.
 
-**Close but no:** Figure 12. Pieces 1-4. Without additional information about the geometry of the core from which these were taken, we should not call these core tablets (though the paper from which the figure is borrowed provides enough context to call these tablets). 
+**Close but no:** Coding as present should not be based only on illustrations of pieces that look like tablets. It should also not normally be based on illustrations of cores that have a single scar as the platform without supporting evidence that that scar was made to rejuvenate the platfrom. Flakes with large facetted proximal margins are illustrated without any other information in the text about rejuvenation of platforms. Figure 12. Pieces 1-4. Without additional information about the geometry of the core from which these were taken, we should not call these core tablets (though the paper from which the figure is borrowed provides enough context to call these tablets). 
 
 
 ## Abrasion/grinding 
