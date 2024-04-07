@@ -4,14 +4,14 @@ author: -Jonathan Paige^[University of Missouri, jonathan.n.paige@gmail.com]
 bibliography: ["references.bib"] #This is the reference file in the rmarkdown directory. 
 #https://github.com/crsh/citr more info on bib connection ot zotero here. 
 output:
+  html_document:
+    df_print: paged
+  word_document: default
   pdf_document:
     keep_tex: yes  #helps with linkage between latex and rmarkdown
     number_sections: yes
     toc: true
     toc_depth: 3
-  word_document: default
-  html_document:
-    df_print: paged
 header-includes:
 - \usepackage{float}  #this helps with figure placement
 - \floatplacement{figure}{hp}
@@ -151,13 +151,15 @@ Since many of the procedural units require the presence of hierarchical cores, o
 
 **Definition:** Heating of raw material in order to improve workability. This process alters the fracture mechanics of raw material, and often causes changes in texture, and color. 
 
-**Inclusion criteria:** Described in text. 
+**Inclusion criteria:** Heat treatment is described in text as a strategy to change flaking properties of raw material
+**Inclusion logic** evidence in text
 
-**Exclusion criteria:** Not described in text. 
+**Exclusion criteria:** Lack of argument for intentional heat treatment to modify flaking properties.
+**Exclusion logic** no evidence in text
 
-**Typical exemplars:** “Flint was/was likely heat treated”. Heat treatment is described as present. 
+**Typical exemplars:** “Flint was/was likely heat treated”.
 
-**Atypical exemplars:** Heating is described, and reference made to glassy/glossy texture of raw material as a result of heating: “flint was glossed/waxy/greasy from heating”
+**Atypical exemplars:** Heating is described, and reference made to glassy/glossy texture of raw material as a result of heating as well as effect on flaking properties: “flint was glossed/waxy/greasy from heating which may have been intended to improve workability”. Figures showing argued evidence for heat treatment where textual support for heat treatment is in the figure, or in figure caption. 
 
 **Close but no:** “material was fired”, “material bears signs of thermal alteration”, Images of pieces that appear to have been heat treated, but without accompanying text describing them as heat treated. “Some flints had a glossy/waxy/greasy appearance”.
 
@@ -165,25 +167,30 @@ Since many of the procedural units require the presence of hierarchical cores, o
 ## Faceting of core platform
 
 **Short Description:** 
-Shaping of a core platform by striking flakes into the platform from the face of the core. 
+Preparation of a core platform by striking parallel sets of flakes into the platform from the face of the core. 
 
 **Definition:** 
 Removal of two or more flakes struck into the face of a core across the platform, forming a platform with two or more parallel facets.
 
-**Inclusion criteria:** 
-Requires hierarchical core reduction. Described in text OR shown in illustration. 
+**Inclusion criteria in text:** Code if faceting of platforms is described in the text as a method of preparing platforms. 
+**Inclusion criteria in figures:** Code if figures show evidence of faceting
 
-**Exclusion criteria:** 
-Absence of hierarchical cores. Not described in text AND not shown in figures. 
+**Exclusion criteria in text:** Code if no description of faceting. Code if faceting noted as absent. Code if facets are present only on non-hierarchical cores or their products. Code if there is evidence but only in a separate reduction sequence. 
+**Exclusion criteria in figures:** Code if only figures with potential evidence for faceting are from dorsal, ventral, or lateral views. Code if there is evidence but only in a separate reduction sequence. Code if facets are present only on non-hierarchical cores or their products.
+
+**Inclusion logic** hierarchical core reduction present AND (sufficient evidence in text OR sufficient evidence in figures)
+**Exclusion logic** hierarchical core reduction absent OR (insufficient evidence in text AND insufficient evidence in figures)
 
 **Typical exemplars:** 
-Code if facetting of platforms is described in the text as a method of preparing platforms. Code if illustrations show evidence of faceting and if the faceting flakes were likely struck into the face of the core. Figure 1. Pieces a, c, d, e, f, g, h. 
+"Platforms were prepared through faceting","3% of the blades in the assemblage had faceted platforms", "platforms were faceted prior to the removal of biface thinning flakes". Figure 1. Pieces a, c, d, e, f, g, h.
 
 **Atypical exemplars:** 
+"Dihedral platforms are rare, representing a later stage of reduction that is not well represented in this quarry assemblage, but which likely represent later reduction within this same chaine operatoire".
+
 Figure 1. Piece b. Figure 2. Pieces 1, 3-7, Figure 3. Step D and flake illustration in step E. 
 
 **Close but no:**  
-Phrases like “platforms were carefully prepared” without additional supporting information about the nature of that preparation. Single or very sparse instances of facetted or dihedral platforms: *“Nevertheless it is important to mention that within the excluded material of the ‘MSA base-complex’ (see above) one flake… shows characteristics of a Levallois preferential flake with centripetal dorsal scars and a facetted striking platform...” (Schmidt, 2011, p. 92)*. Determining presence based on figures alone requires figures of the platforms themselves. Do not code based on figures showing only dorsal or ventral views of flakes. All examples in figure 4 would be insufficient to code as present. 
+Phrases like “platforms were carefully prepared” without additional supporting information about the nature of that preparation. Single or very sparse instances of facetted or dihedral platforms which could have come from a different kind of technology: *“Nevertheless it is important to mention that within the excluded material of the ‘MSA base-complex’ (see above) one flake… shows characteristics of a Levallois preferential flake with centripetal dorsal scars and a facetted striking platform...” (Schmidt, 2011, p. 92)*. Do not code based on figures showing only dorsal or ventral views of flakes. All examples in figure 4 would be insufficient to code as present. Flakes from pebble cores where two flake facets may be the only evidence for the hierarchical nature of the core.
 
 
 ## Face shaping through radial removals
@@ -194,17 +201,21 @@ Shaping of the face of a core through centripetal removals along the perimeter o
 **Definition:** 
 Flakes taken to modify the distal, lateral, proximal convexities of a core face, to prepare it for preferential removals. The preferential removals could be unidirectional or bidirectional blades, or preferential flakes. 
 
-**Inclusion criteria:** 
-Requires hierarchical core reduction. Described in text OR shown in figures. 
+**Inclusion criteria text:** Code if are hierarchical cores described as having centripetal preparation.
+**Inclusion criteria figures:** Code if hierarchical cores show sufficient evidence of centripetal preparation
 
-**Exclusion criteria:** 
-Not described in text AND not shown in figures.   
+**Exclusion criteria text:** Code if no evidence of core face preparation. Code if described as absent. Code if insufficient evidence in text. 
+**Exclusion criteria figures:** Code if no evidence of core face preparation. Code if cores are rectilinear and preparation is better described through lateral trimming and distal trimming of core face. Code if insufficient evidence in figures.
+
+**Inclusion logic** hierarchical core reduction present AND (sufficient evidence in text OR sufficient evidence in figures)
+**Exclusion logic** hierarchical core reduction absent OR (insufficient evidence in text AND insufficient evidence in figures)
+
 
 **Typical exemplars:** 
 Figure 5. Pieces 1, 2, 4, 7. Consistent evidence in figures of radial scars on blanks along with cores with evidence of centripetal preparation. Core faces should be rounded/oval, not rectilinear. Description of centripetal preparation of cores. 
 
 **Atypical exemplars:** 
-Cases where core faces are described as shaped through lateral removals, and removals from the distal margin, but which fit this definition of centripetal flaking. 
+Cases where core faces are described as shaped through lateral removals, and removals from the distal margin, but which fit this definition of centripetal flaking. Generally, if there is discomfort in excluding centripetal in favor of lateral trimming and distal trimming, favor the centripetal interpretation.
 
 **Close but no:**  
 Figure 5. Pieces 3, 5, 6. Cores of a rectilinear shape with lateral trimming, and distal trimming. 
@@ -216,23 +227,26 @@ Figure 5. Pieces 3, 5, 6. Cores of a rectilinear shape with lateral trimming, an
 Lateral convexity of core face is shaped with flakes initiated from platforms along lateral margins of core.  
 
 **Definition** 
-The lateral convexities of the face of a core are trimmed through the removal of flakes from platforms roughly parallel to main flaking axis.
+The lateral convexities of the face of a hierarchical core are trimmed through the removal of flakes from platforms roughly parallel to main flaking axis. 
 
-**Inclusion criteria:** 
-Requires hierarchical core reduction. Described in text OR shown in figures.
+**Inclusion criteria text:** Code if sufficient evidence in text
+**Inclusion criteria figures:** Code if sufficient evidence in figures
 
-**Exclusion criteria:** 
-Absence of hierarchical core reduction. Not described in text AND not shown in figures.
+**Exclusion criteria text:**  Code if insufficient evidence in text. Code if described as absent. Code if management of lateral convexities is through *debordante* or centripetal preparation.
+**Exclusion criteria figures:** Code if insufficient evidence in figures. Code if management of lateral convexities is through *debordante* or centripetal preparation.
 
 **Typical exemplars:** 
 Figure 6, no. 4. Descriptions of shaping of lateral convexities of the face through removals from the lateral margin of the core. 
 
 **Atypical exemplars:**  
-Figure 5. Piece 3. 
+Figure 5. Piece 3. Examples of isolated lateral trimming flakes.
 
 **Close but no:** 
 Descriptions of *débordante* removals, but without further specifics about the orientation of trimming flakes. 
-Do not count if: lateral flakes were struck only during radial/centripetal preparation of a core face, lateral convexities are only trimmed through *débordante* removals meeting this codebook's definition, the lateral margin of a core has flake scars parallel to the main flaking axis, but those flakes originated from a crest used to establish the core face.
+
+**Inclusion logic** hierarchical core reduction present AND Centripetal preparation absent AND (sufficient evidence in text OR sufficient evidence in figures)
+**Exclusion logic** hierarchical core reduction absent OR (insufficient evidence in text AND insufficient evidence in figures)
+
 
 
 ## Distal trimming
@@ -243,20 +257,27 @@ Face shaped with flakes initiated from platform at distal margin of core.
 **Definition:** 
 Distal convexities of the face of a hierarchical core are managed through the removal of flakes from a platform at the distal margin of the core (i.e. the platform is perpendicular to the main flaking axis, and roughly parallel to the main platform).
 
-**Inclusion criteria:** 
-Requires hierarchical core reduction. Described in text OR shown in figures.
+**Inclusion criteria text:** 
+Code if sufficient evidence in text
 
-**Exclusion criteria:** 
-Absence of hierarchical core reduction. Not described in text AND not shown in figures.
+**Inclusion criteria figures:** 
+Code if sufficient evidence in figures
+
+**Exclusion criteria text:**  Code if insufficient evidence in text. Code if management of distal convexities is through *debordante*, centripetal preparation, or lateral trimming. Code if distal trimming described as absent.
+**Exclusion criteria figures** Code if insufficient evidence in figures. Code if management of distal convexities is through *debordante*, centripetal preparation, or lateral trimming.
 
 **Typical exemplars:** 
 Figure 5, Levallois cores numbers 5, 6., Figure 6, Levallois core with lateral trimming, number 4. Figure 7. Step 4 in blademaking sequence. Descriptions of shaping of distal convexities of the face through removals from the distal margin of the core. 
 
 **Atypical exemplars:** 
-Figure 8. Step 3 in Chazan’s description of La Ferrassie bladelets. Notching a bladelet, to supply end point of microblades taken from lateral margin of that bladelet core. Figure 10, numbers 4 and 7. Any flaking at a distal platform that is argued to control length of flaking surface or to shape the distal end of the blank. 
+Figure 8. Step 3 in Chazan’s description of La Ferrassie bladelets. Notching a bladelet, to supply end point of microblades taken from lateral margin of that bladelet core. Figure 10, numbers 4 and 7. Any flaking at a distal platform that is argued to control length of flaking surface or to shape the distal end of a blank. 
 
 **Close but no:** 
 Do not count if: the core could be reasonably characterized as centripetally prepared, or if these are flakes initiated from the distal margin that trim the lateral convexities of a core, like what we might find in a Nubian Levallois core (these should be coded as *débordante*). 
+
+**Inclusion criteria logic**Hierarchical core reduction present AND Centripetal preparation absent AND (sufficient evidence in text OR sufficient evidence in figures)
+**Exclusion criteria logic:** 
+Hierarchical core reduction absent OR centripetal preparation present OR (insufficient evidence in text AND insufficient evidence in figures)
 
 ## Back shaping
 
@@ -264,13 +285,16 @@ Do not count if: the core could be reasonably characterized as centripetally pre
 Back of the core is shaped.
 
 **Definition:** 
-Back of core is shaped, as is case among naviform cores, and often among microblade cores. All examples so far identified are cases where a nodule was bifacially flaked. One of the flaked crests then is used to remove one or two crested blades to establish a platform and face. Then flakes are removed from that platfom until exhausted. When exhausted there remains evidence of original bifacial flaking at the back of the core. 
+Back of core is shaped, as is case among naviform cores, and often among microblade cores. All examples so far identified are cases where a nodule was bifacially flaked to produce a set of crests. One of the flaked crests then is used to remove one or two crested blades to establish a platform and face. Then flakes are removed from that platform until exhausted. When exhausted there remains evidence of original bifacial flaking at the back of the core. 
 
-**Inclusion criteria:** 
-Shown in figures. 
-
-**Exclusion criteria:** 
-Not shown in figures.
+**Inclusion criteria text:** 
+NA
+**Inclusion criteria figures:** 
+Code if sufficient evidence in figures
+**Exclusion criteria text:** 
+Code if insufficient evidence in text. Code if described as absent.
+**Exclusion criteria figures** 
+Code if sufficient evidence in figures
 
 **Typical exemplars:** 
 Figure 9. Piece 2b. Back of hierarchical core is shaped, typically bifacially. 
@@ -281,16 +305,29 @@ NA
 **Close but no:**  
 Crested blades are present, but no illustrations of cores showing evidence for a modified back/non-flaking surface. 
 
+**Inclusion criteria logic**
+Hierarchical core reduction present AND (sufficient evidence in text OR sufficient evidence in figures)
+
+**Exclusion criteria logic:** 
+Hierarchical core reduction absent OR  (insufficient evidence in text AND insufficient evidence in figures)
 
 ## Cresting
 
-**Short Description:** Cresting to shape core face during initial steps of core preparation. 
+**Short Description:** Cresting to shape hierarchical core face during initial steps of core preparation. 
 
 **Definition:** A core is bifacially or unifacially flaked along one axis. That crest establishes an artificial ridge along which an elongated flake, with a crested (entirely or partially) dorsal surface is removed. 
 
-**Inclusion criteria:** Described in text OR shown in figures. 
 
-**Exclusion criteria:** Not described in text AND not shown in figures.
+**Inclusion criteria text:** 
+Code if sufficient evidence in text
+**Inclusion criteria figures:** 
+Code if sufficient evidence in figures
+**Exclusion criteria text:** 
+Code if insufficient evidence in text
+**Exclusion criteria figures** 
+Code if insufficient evidence in figures
+
+
 
 **Typical exemplars:** Figure 10. Flakes whose dorsal surface bears a full bifacially flaked crest. Pieces 1, 2, 4, 5, 6, 7. Cresting of core faces is described as present and/or figures show elements flakes bearing a crest, with at least a partial crest platform present. 
 
@@ -544,9 +581,9 @@ Presence of *pièces esquillées* or other kinds of scaled pieces described as r
 
 ## Invasive flaking
 
-**Short Description:** Removal of non-cortical flakes that extend beyond the midpoint of the core face, or beyond the midpoint of a flake or core-tool during retouch. 
+**Short Description:** Removal of non-cortical flakes that extend beyond the midpoint of the core face (~70%), or beyond the midpoint of a flake or core-tool during retouch. 
 
-**Definition:** Removal of non-cortical flakes that extend beyond the midpoint of the core face, or beyond the midpoint of a flake or core-tool during retouch. The midpoint can either be in relation to the long axis (if striking things like burin spalls or blades), or along the short axis (in cases of tranchet resharpening, and biface thinning).
+**Definition:** Removal of non-cortical flakes that extend beyond the midpoint of the core face, or beyond the midpoint of a flake or core-tool during retouch (~70%). The midpoint can either be in relation to the long axis (if striking things like burin spalls or blades), or along the short axis (in cases of tranchet resharpening, and biface thinning).
 
 **Inclusion criteria:** Described in text OR shown in figures.
 
@@ -556,7 +593,7 @@ Presence of *pièces esquillées* or other kinds of scaled pieces described as r
 
 **Atypical exemplars:** Burin spall removals that extend halfway down the axis of a flake, tranchet retouch. 
 
-**Close but no:**  Invasive flaking described only in text, but without further information about how invasive the flake are. No description of flakes invasive to the degree that 
+**Close but no:**  Invasive flaking described only in text, but without further information about how invasive the flake are or if they are cortical or not. No description of flakes invasive to the degree that 
 they extend beyond midline. Candidate invasive flakes are cortical. 
 <br>
 <br>
@@ -622,14 +659,13 @@ they extend beyond midline. Candidate invasive flakes are cortical.
 
 **Definition:** Retouch of any kind present. Small flakes are removed from either a retouched flake/blank or core tool to shape it or resharpen it. 
 
-**Inclusion criteria:** Retouch described as present. Illustrations of pieces show unambiguous evidence of retouch. 
+**Inclusion criteria:** Described in text OR shown in figures.
 
-**Exclusion criteria:** Bifacial retouch is present. No unambiguous illustrations of unifacially retouched pieces, and no mention of 
-retouch. 
+**Exclusion criteria:** No mention in text AND not shown in figures.
 
 **Typical exemplars:** NA
 
-**Atypical exemplars:** NA
+**Atypical exemplars:** *Facconage* of handaxes and other core tools is treated as retouch.
 
 **Close but no:**  NA
 <br>
