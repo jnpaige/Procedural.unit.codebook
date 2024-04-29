@@ -510,7 +510,7 @@ Presence of *pièces esquillées* or other kinds of scaled pieces described as r
 
 ## Flaking with application of pressure
 
-**Short Description:** Removal of flakes through application of pressure on core platform, or on a retouched tool edge.
+**Short Description:** Removal of flakes through application of pressure on core platform.
 
 **Definition:** Use of typically soft indentor, bone, metal, or hard wood,to press off flakes, or burin spalls.
 
@@ -518,11 +518,11 @@ Presence of *pièces esquillées* or other kinds of scaled pieces described as r
 
 **Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Typical exemplars:** Illustrations of pressure flaked bifaces, or of retouch through pressure flaking. These show invasive flake scars on retouched pieces that are extremely narrow (~.5mm), thin (<.1mm, and relatively invasive (~5mm).  
+**Typical exemplars:** Descriptions of the use of pressure to produce blanks, typically microblades or repeated initiation of burin spalls from a flake to serve as microblades.
 
 **Atypical exemplars:** ‘Microblades were struck through application of pressure’, 'burin spalls were likely removed through pressure flaking". Examples where indirect percussion, soft hammer, and pressure flaking are all reported as possibilities, but pressure flaking is reported as most likely. 
 
-**Close but no:**  Delicate retouched tools without strong evidence of pressure flaking retouch. Descriptions of delicate blade manufacture, but no clear statement indicating that pressure flaking was the likely method of core reduction. Statements like “pressure flaking is one method that could produce the forms here”, without noting that it is the most likely method.
+**Close but no:**   Descriptions of delicate blade manufacture, but no clear statement indicating that pressure flaking was the likely method of core reduction. Statements like “pressure flaking is one method that could produce the forms here”, without noting that it is the most likely method. Cases of pressure flaking retouch. Pressure flaked single burins, or otherwise later stage pressure flaked burins where there is no argument that they served as microblade cores.
 
 
 ## Pecking/hammer dressing
@@ -544,20 +544,20 @@ Presence of *pièces esquillées* or other kinds of scaled pieces described as r
 
 ## Invasive flaking
 
-**Short Description:** Removal of non-cortical flakes that extend beyond the midpoint of the core face, or beyond the midpoint of a flake or core-tool during retouch. 
+**Short Description:** Removal of non-cortical flakes that extend beyond the midpoint of the core face.
 
-**Definition:** Removal of non-cortical flakes that extend beyond the midpoint of the core face, or beyond the midpoint of a flake or core-tool during retouch. The midpoint can either be in relation to the long axis (if striking things like burin spalls or blades), or along the short axis (in cases of tranchet resharpening, and biface thinning).
+**Definition:** Removal of non-cortical flakes that extend beyond the midpoint of the core face,  The midpoint can either be in relation to the long axis (if striking things like burin spalls or blades), or along the short axis (in cases of tranchet resharpening, and biface thinning).
 
 **Inclusion criteria:** Described in text OR shown in figures.
 
 **Exclusion criteria:** Not described in text AND not shown in figures.
 
-**Typical exemplars:** Examples of blade production, and biface thinning.  
+**Typical exemplars:** Examples of blade production.  
 
-**Atypical exemplars:** Burin spall removals that extend halfway down the axis of a flake, tranchet retouch. 
+**Atypical exemplars:** Invasive flaking during early stages of biface reduction.
 
 **Close but no:**  Invasive flaking described only in text, but without further information about how invasive the flake are. No description of flakes invasive to the degree that 
-they extend beyond midline. Candidate invasive flakes are cortical. 
+they extend beyond midline. Candidate invasive flakes are cortical. Biface thinning flakes and tranchet spalls which are better characterized as invasive retouch.
 <br>
 <br>
 
@@ -703,9 +703,41 @@ retouch.
 
 **Close but no:**  Illustrations of what appear to be tranchet spalls in context of a site with core-tools that could reasonably have been resharpened with such spalls, but no description in the text that these spalls served that purpose. 
 Examples of micro "tranchet" adzes in the Solomon Islands illustrated in Harrison (1931) which have the same kind of bevelled bit as a tranchet axe, but which were likely produced through careful preparation of a core, rather than through a *coup de tranchet*.  
+
+
+## Pressure retouch
+
+**Short Description:** Pressure flaking retouch
+
+**Definition:** Retouching a piece (core-tool or flake) with application of pressure. 
+
+**Inclusion criteria:** Described in text OR shown in figures.
+
+**Exclusion criteria:** Not described in text AND not shown in figures.
+
+**Typical exemplars:** Invasive flake scars on retouched pieces that are extremely narrow (~.5mm), thin (<.1mm, and relatively invasive (~5mm) OR description of pieces as pressure flaked. ‘There were x pressure flaked bifaces in the assemblage’
+
+**Atypical exemplars:** ‘Burin spalls removed through pressure flaking’, or ‘microblades removed from an end nosed scraper through pressure flaking.’
+
+**Close but no:** ‘biface was thinned through invasive and delicate removals’, ‘delicate burin spalls removed’, 'blank production was performed through pressure flaking. Delicate retouched tools without strong evidence of pressure flaking retouch.
   
-  
-  
+
+## Invasive retouch
+
+**Short Description:** retouch that initiates flakes which extends to beyond the midline of the flake or core-tool. 
+
+**Definition:** NA
+
+**Inclusion criteria:** described in text OR shown in figures
+
+**Exclusion criteria:** No illustrations of retouched pieces. 
+
+**Typical exemplars:**  Flakes that extend beyond the midpoint of a flake or core-tool during retouch. Descriptions of pieces as having invasive retouch. Illustrations of retouched pieces showing retouch extending beyond midline of tool.  
+
+**Atypical exemplars:** Burin spalls that extend beyond midline of the artifact. Tranchet spalls. 
+
+**Close but no:**  Retouch described as invasive, but retouch scars in illustrations extend to or short of the midline of the artifact. Invasive flake scars on early stage bifaces and unretouched core-tools.
+
 # Figures  
   
  
