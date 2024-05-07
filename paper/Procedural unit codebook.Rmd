@@ -4,14 +4,14 @@ author: -Jonathan Paige^[University of Missouri, jonathan.n.paige@gmail.com]
 bibliography: ["references.bib"] #This is the reference file in the rmarkdown directory. 
 #https://github.com/crsh/citr more info on bib connection ot zotero here. 
 output:
+  html_document:
+    df_print: paged
+  word_document: default
   pdf_document:
     keep_tex: yes  #helps with linkage between latex and rmarkdown
     number_sections: yes
     toc: true
     toc_depth: 3
-  word_document: default
-  html_document:
-    df_print: paged
 header-includes:
 - \usepackage{float}  #this helps with figure placement
 - \floatplacement{figure}{hp}
@@ -101,11 +101,11 @@ for procedural units to avoid copyright issues, but references to the illustrati
 
 # V.1.1 Notes
 
-This modified version helps solve some issues with the first version. The main issue is the lack of metadata in the dataset describing what particular criteria where met in coding a procedural unit as present or absent, and a citation referring to the figures, or paragraphs, containing the relevant inclusion or exclusion criteria. Without that metadata, it will be more challenging for others to assess the quality of the data. 
+This modified version helps solve some issues with the first version. The main issue is the lack of metadata in the dataset describing what particular criteria where met in coding a procedural unit as present or absent, and a citation referring to the figures, or paragraphs, containing the relevant inclusion or exclusion criteria. Without that metadata, it will be more challenging for others to assess the quality of the data.
 
-To help with this, the inclusion and exclusion criteria were tweaked to make clear whether evidence in text, or evidence in figures should be used as evidence either for inclusion or exclusion. This is then mirrored in the procedural unit data sheet where additional columns associated with each procedural unit record what inclusion/exclusion criteria were met, and the page/paragraph and figure/table numbers that meet those criteria. 
+To help provide more transparency about the coding process, the inclusion and exclusion criteria were tweaked to make clear whether evidence in text, or evidence in figures should be used as evidence either for inclusion or exclusion. This is then mirrored in the procedural unit data sheet where additional columns associated with each procedural unit record what inclusion/exclusion criteria were met, and the page/paragraph and figure/table numbers that meet those criteria. 
 
-Other changes include clearer guidance in most entries, removal of some logical inconsistencies, folding in "pressure flaking through retouch" with "pressure flaking", removal of invasive retouch (folded in with invasive flaking), and removal of bifacial retouch (folded in with retouch)
+Other changes include clearer guidance in most entries and removal of some logical inconsistencies.
 
 # Definitions
 
