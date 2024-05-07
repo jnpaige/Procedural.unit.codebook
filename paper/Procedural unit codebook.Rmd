@@ -137,10 +137,6 @@ Posterior surface relative to the main flaking surface, roughly parallel to the 
 Distal surface of a hierarchical core, opposite the main core platform.  
 
 
-# Coding presence/absence of hierarchical cores
-
-Since many of the procedural units require the presence of hierarchical cores, or cores where there is an argued structure/plan involving preparation of a core platform or face before targetted removals of flakes, it is important to consistently code as present or absent hierarchical flaking even if it is not treated as a technique on its own.
-
 
 
 # Procedural unit codes
@@ -300,7 +296,7 @@ Crested blades are present, but no illustrations of cores showing evidence for a
 
 
 
-## *Débordante* 
+## *Débordant* 
 
 **Short Description:** Shaping of core face through knapping elongated flakes along lateral margins of core face, across the axis of the main flaking surface. 
 
