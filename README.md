@@ -1,3 +1,3 @@
-# Procedural.unit.codebook
+# Procedural unit codebook v.1.1
 
 This codebook was developed as a guide to code published descriptions of stone tool assemblages for presence or absence of different kinds of flintknapping techniques, or procedural units. It follows a format developed by researchers at the Center for Disease Control for the purposes of coding interview transcripts. There can be several viable readings of any given text, and readers bring their own prior experience and expertise in interpreting that text. The codebook is intended to provide guardrails to interpretation, and ensures that the same kind of criteria are being applied when counting something as present or absent. The codebook is hosted on github to help ensure that a version history, and record of all changes are maintained. This will also help ensure that the particular version of the codebook used to generate a given dataset is made public. 
