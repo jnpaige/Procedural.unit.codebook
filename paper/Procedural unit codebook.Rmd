@@ -4,14 +4,14 @@ author: -Jonathan Paige^[University of Missouri, jonathan.n.paige@gmail.com]
 bibliography: ["references.bib"] #This is the reference file in the rmarkdown directory. 
 #https://github.com/crsh/citr more info on bib connection ot zotero here. 
 output:
-  html_document:
-    df_print: paged
   word_document: default
   pdf_document:
     keep_tex: yes  #helps with linkage between latex and rmarkdown
     number_sections: yes
     toc: true
     toc_depth: 3
+  html_document:
+    df_print: paged
 header-includes:
 - \usepackage{float}  #this helps with figure placement
 - \floatplacement{figure}{hp}
