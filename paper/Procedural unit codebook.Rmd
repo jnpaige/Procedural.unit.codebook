@@ -103,6 +103,9 @@ To help provide more transparency about the coding process, the inclusion and ex
 
 Other changes include clearer guidance in most entries and removal of some logical inconsistencies.
 
+# Source Structure
+Published archaeological papers and reports describe lithic assemblages through a combination of prose descriptions, artifact count tables, and figures (line drawings, photographs, or schematics of reduction sequences). The source text may be a journal article, monograph chapter, book, or unpublished site report. Evidence for a procedural unit may be explicit (the technique is named directly) or inferential (the artifact types or features described are consistent with the technique). The same technique may be described using different terminology across research traditions. Both text and figure evidence are valid sources; figures showing artifact morphology, platform configurations, core forms, or reduction schematics may provide evidence not stated in the prose. Code each procedural unit based on what is described for the specific assemblage under evaluation — not based on what is typical for the broader region or time period.
+
 # Definitions
 
 **Hierarchical cores**
